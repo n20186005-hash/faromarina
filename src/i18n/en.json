@@ -7,7 +7,11 @@
   "common": {
     "changeLanguage": "Language",
     "toggleTheme": "Theme",
-    "readMore": "Read more"
+    "readMore": "Read more",
+    "faroAlgarve": "Faro · Algarve",
+    "info": "Info",
+    "faunaFlora": "Fauna & Flora",
+    "timeline": "Timeline"
   },
   "header": {
     "siteName": "Faro Marina",

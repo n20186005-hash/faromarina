@@ -7,7 +7,11 @@
   "common": {
     "changeLanguage": "语言",
     "toggleTheme": "主题",
-    "readMore": "阅读更多"
+    "readMore": "阅读更多",
+    "faroAlgarve": "法鲁 · 阿尔加维",
+    "info": "信息",
+    "faunaFlora": "动植物",
+    "timeline": "时间线"
   },
   "header": {
     "siteName": "法鲁码头",

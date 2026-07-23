@@ -23,6 +23,7 @@ export function getStaticPaths() {
   return languagesList.map((lang) => ({ params: { lang } }));
 }
 
+const { lang } = Astro.params as { lang: 'en' | 'pt' | 'zh' };
 const { messages } = getI18n(Astro.url);
 
 const faqLd = (() => {
