@@ -1,0 +1,166 @@
+{
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=37.0154%2C-7.9347",
+  "meta": {
+    "title": "Faro Marina Travel Guide | Things To Do in Faro Portugal",
+    "description": "Discover Faro Marina, waterfront views, nearby attractions and travel information for your visit to the Algarve."
+  },
+  "common": {
+    "changeLanguage": "Language",
+    "toggleTheme": "Theme",
+    "readMore": "Read more"
+  },
+  "header": {
+    "siteName": "Faro Marina",
+    "tagline": "Doca de Faro",
+    "home": "Home",
+    "visit": "Visit",
+    "transport": "Getting There",
+    "nearby": "Nearby",
+    "food": "Food",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "map": "Map"
+  },
+  "hero": {
+    "title": "Faro Marina",
+    "subtitle": "The waterfront gateway of Faro, in the heart of the Algarve.",
+    "ctaMaps": "Open in Google Maps",
+    "quickFacts": [
+      { "icon": "⭐", "label": "Rating", "value": "4.4 / 5" },
+      { "icon": "📍", "label": "Location", "value": "Faro, Portugal" },
+      { "icon": "🕒", "label": "Hours", "value": "Open 24h" },
+      { "icon": "🏛", "label": "Type", "value": "Waterfront" }
+    ]
+  },
+  "quickInfo": {
+    "title": "Quick Info",
+    "rating": "Rating",
+    "location": "Location",
+    "hours": "Hours",
+    "category": "Category"
+  },
+  "about": {
+    "title": "About Faro Marina",
+    "paragraphs": [
+      "Faro Marina is the waterfront area located in the historic center of Faro, Algarve.",
+      "It sits next to Praça Dom Francisco Gomes, connecting the old town with the Ria Formosa lagoon.",
+      "It is a starting point for boat trips and a peaceful place for seaside walks."
+    ]
+  },
+  "thingsTodo": {
+    "title": "Things To Do",
+    "intro": "Recommended experiences around the marina and the waterfront.",
+    "items": [
+      {
+        "title": "Seaside Walk",
+        "icon": "🚶",
+        "tags": ["Walking", "Relaxation"],
+        "duration": "30–60 min",
+        "description": "Stroll along the waterfront and enjoy views of the Ria Formosa."
+      },
+      {
+        "title": "Watch the Sunset",
+        "icon": "🌅",
+        "tags": ["Photography", "Couples", "Relaxation"],
+        "duration": "30 min",
+        "description": "The sunset over the water creates excellent light for photography."
+      },
+      {
+        "title": "Explore Ria Formosa",
+        "icon": "🚤",
+        "tags": ["Nature", "Boat Trips", "Wildlife"],
+        "duration": "2–4 h",
+        "description": "Join boat trips through the lagoon and observe local wildlife."
+      },
+      {
+        "title": "Old Town Walking Route",
+        "icon": "🏛",
+        "tags": ["History", "Culture"],
+        "duration": "45 min",
+        "description": "Follow the walking route from the marina into Faro's old town."
+      }
+    ],
+    "oldTownRoute": {
+      "title": "Walking Route: Marina → Old Town",
+      "steps": ["Faro Marina", "Praça Dom Francisco Gomes", "Arco da Vila", "Faro Cathedral", "Old Town"]
+    }
+  },
+  "transport": {
+    "title": "How To Get There",
+    "intro": "Faro Marina is in the city center, a short walk from the train station and the bus terminal.",
+    "byAir": {
+      "title": "By Plane",
+      "body": "Faro Airport (FAO) is about 10 km away. You can get there by taxi, bus or rental car.",
+      "options": ["Taxi", "Bus", "Car Rental"],
+      "distance": "About 10 km"
+    },
+    "byTrain": {
+      "title": "By Train",
+      "body": "Faro Train Station is a short walk from the marina."
+    },
+    "byCar": {
+      "title": "By Car",
+      "body": "Parking is available nearby. Use the button to open the route in Google Maps.",
+      "cta": "Open Route in Maps"
+    }
+  },
+  "nearby": {
+    "title": "Nearby Attractions",
+    "intro": "Points of interest within walking distance of the marina.",
+    "items": [
+      { "name": "Arco da Vila", "distance": "Walking" },
+      { "name": "Faro Cathedral", "distance": "Walking" },
+      { "name": "Old Town", "distance": "Walking" },
+      { "name": "Jardim Manuel Bivar", "distance": "Nearby" }
+    ]
+  },
+  "food": {
+    "title": "Food Culture",
+    "intro": "The Algarve has a rich seafood cuisine. Here are some typical local dishes.",
+    "dishes": [
+      { "name": "Cataplana", "desc": "A seafood and meat stew cooked in a traditional copper pot." },
+      { "name": "Grilled Sardines", "desc": "Grilled sardines, a summer classic of the Algarve." },
+      { "name": "Octopus (Polvo)", "desc": "Octopus baked with olive oil and potatoes." },
+      { "name": "Pastel de Nata", "desc": "Custard tart with cinnamon." }
+    ]
+  },
+  "bestTime": {
+    "title": "Best Time to Visit",
+    "intro": "Faro has a Mediterranean climate with over 300 sunny days a year.",
+    "seasons": [
+      { "period": "Spring (Mar–May)", "note": "Mild temperatures and fewer tourists." },
+      { "period": "Summer (Jun–Aug)", "note": "Hot, sunny days; peak season." },
+      { "period": "Autumn (Sep–Oct)", "note": "Warm and calm, ideal for walks." },
+      { "period": "Winter (Nov–Feb)", "note": "Mild and quiet, good for the city." }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "caption": "Views of the marina, Ria Formosa and the sunset."
+  },
+  "reviews": {
+    "title": "Visitor Experience Summary",
+    "ratingLabel": "Rating",
+    "reviewCountLabel": "reviews",
+    "likesTitle": "Visitors usually like",
+    "tipsTitle": "Visitor tips",
+    "likes": ["Sea views", "Close to the old town", "Good for walking"],
+    "tips": ["Strong sun in summer", "Busier in the afternoon"]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "q": "Where is Faro Marina?", "a": "It is at Praça Dom Francisco Gomes, in the center of Faro, Algarve." },
+      { "q": "Is the marina free?", "a": "The waterfront is public and free to access; boat trips are paid." },
+      { "q": "What is the best time to visit?", "a": "Spring and autumn offer pleasant temperatures." },
+      { "q": "How to get from the airport?", "a": "You can take a taxi, bus or rental car from Faro Airport (FAO), about 10 km away." }
+    ]
+  },
+  "footer": {
+    "siteName": "Faro Marina Guide",
+    "description": "A multilingual information guide to Faro Marina.",
+    "disclaimer": "This site is an informational guide based on public data and does not sell tickets or bookings.",
+    "copyright": "© 2026 Faro Marina Guide. All rights reserved."
+  }
+}

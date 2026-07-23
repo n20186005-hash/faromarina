@@ -1,0 +1,166 @@
+{
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=37.0154%2C-7.9347",
+  "meta": {
+    "title": "法鲁码头旅游指南 | Faro Marina 葡萄牙景点介绍",
+    "description": "探索葡萄牙法鲁码头，包括交通方式、周边景点、游览建议和旅行信息。"
+  },
+  "common": {
+    "changeLanguage": "语言",
+    "toggleTheme": "主题",
+    "readMore": "阅读更多"
+  },
+  "header": {
+    "siteName": "法鲁码头",
+    "tagline": "Doca de Faro",
+    "home": "首页",
+    "visit": "游览",
+    "transport": "交通",
+    "nearby": "周边",
+    "food": "美食",
+    "gallery": "相册",
+    "reviews": "评价",
+    "faq": "常见问题",
+    "map": "地图"
+  },
+  "hero": {
+    "title": "法鲁码头",
+    "subtitle": "法鲁城市海滨入口，地处阿尔加维的中心。",
+    "ctaMaps": "在 Google Maps 中打开",
+    "quickFacts": [
+      { "icon": "⭐", "label": "评分", "value": "4.4 / 5" },
+      { "icon": "📍", "label": "位置", "value": "葡萄牙 法鲁" },
+      { "icon": "🕒", "label": "开放", "value": "全天开放" },
+      { "icon": "🏛", "label": "类型", "value": "海滨" }
+    ]
+  },
+  "quickInfo": {
+    "title": "快速信息",
+    "rating": "评分",
+    "location": "位置",
+    "hours": "开放时间",
+    "category": "类别"
+  },
+  "about": {
+    "title": "关于法鲁码头",
+    "paragraphs": [
+      "法鲁码头位于葡萄牙阿尔加维地区法鲁市中心，是连接老城区与海滨的重要区域。",
+      "该区域靠近历史城区和 Praça Dom Francisco Gomes（弗朗西斯科·戈麦斯广场）。",
+      "这里是乘船游览的出发点，也是海边漫步的宁静之所。"
+    ]
+  },
+  "thingsTodo": {
+    "title": "游玩方式",
+    "intro": "围绕码头与滨水区域的推荐体验。",
+    "items": [
+      {
+        "title": "海滨散步",
+        "icon": "🚶",
+        "tags": ["散步", "放松"],
+        "duration": "30–60 分钟",
+        "description": "沿滨水长廊散步，欣赏 Ria Formosa 泻湖景色。"
+      },
+      {
+        "title": "观看日落",
+        "icon": "🌅",
+        "tags": ["摄影", "情侣", "放松"],
+        "duration": "30 分钟",
+        "description": "夕阳映照水面的光影非常适合摄影。"
+      },
+      {
+        "title": "探索 Ria Formosa",
+        "icon": "🚤",
+        "tags": ["自然", "乘船", "野生动植物"],
+        "duration": "2–4 小时",
+        "description": "参加泻湖乘船之旅，观赏当地野生动植物。"
+      },
+      {
+        "title": "老城区步行路线",
+        "icon": "🏛",
+        "tags": ["历史", "文化"],
+        "duration": "45 分钟",
+        "description": "沿着从码头到法鲁老城区的步行路线前行。"
+      }
+    ],
+    "oldTownRoute": {
+      "title": "步行路线：码头 → 老城区",
+      "steps": ["法鲁码头", "弗朗西斯科·戈麦斯广场", "维拉拱门", "法鲁主教座堂", "老城区"]
+    }
+  },
+  "transport": {
+    "title": "交通方式",
+    "intro": "法鲁码头位于市中心，步行即可到达火车站与长途汽车站。",
+    "byAir": {
+      "title": "飞机",
+      "body": "法鲁机场（FAO）距离约 10 公里，可乘出租车、巴士或租车抵达。",
+      "options": ["出租车", "巴士", "租车"],
+      "distance": "约 10 公里"
+    },
+    "byTrain": {
+      "title": "火车",
+      "body": "法鲁火车站距离码头步行可达。"
+    },
+    "byCar": {
+      "title": "自驾",
+      "body": "附近设有停车场。点击按钮在 Google Maps 中打开路线。",
+      "cta": "在地图中打开路线"
+    }
+  },
+  "nearby": {
+    "title": "周边景点",
+    "intro": "距离码头步行可达的景点。",
+    "items": [
+      { "name": "维拉拱门", "distance": "步行" },
+      { "name": "法鲁主教座堂", "distance": "步行" },
+      { "name": "老城区", "distance": "步行" },
+      { "name": "曼努埃尔·比瓦尔花园", "distance": "附近" }
+    ]
+  },
+  "food": {
+    "title": "美食文化",
+    "intro": "阿尔加维拥有丰富的海鲜料理。以下是一些当地特色菜。",
+    "dishes": [
+      { "name": "Cataplana 海鲜锅", "desc": "用传统铜锅烹制的海鲜与肉类炖菜。" },
+      { "name": "烤沙丁鱼", "desc": "烤沙丁鱼，阿尔加维夏季经典。" },
+      { "name": "章鱼料理", "desc": "用橄榄油和土豆烤制的章鱼。" },
+      { "name": "葡式蛋挞", "desc": "带肉桂的奶油蛋挞。" }
+    ]
+  },
+  "bestTime": {
+    "title": "最佳游览时间",
+    "intro": "法鲁属地中海气候，全年日照超过 300 天。",
+    "seasons": [
+      { "period": "春季（3–5月）", "note": "气候温和，游客较少。" },
+      { "period": "夏季（6–8月）", "note": "炎热晴朗，旺季。" },
+      { "period": "秋季（9–10月）", "note": "温暖安静，适合散步。" },
+      { "period": "冬季（11–2月）", "note": "温和安静，适合城市游。" }
+    ]
+  },
+  "gallery": {
+    "title": "图片画廊",
+    "caption": "码头、Ria Formosa 泻湖与日落风光。"
+  },
+  "reviews": {
+    "title": "游客体验总结",
+    "ratingLabel": "评分",
+    "reviewCountLabel": "条评价",
+    "likesTitle": "游客通常喜欢",
+    "tipsTitle": "游客提醒",
+    "likes": ["海景", "靠近老城区", "适合散步"],
+    "tips": ["夏季日照强", "下午游客较多"]
+  },
+  "faq": {
+    "title": "常见问题",
+    "items": [
+      { "q": "法鲁码头在哪里？", "a": "位于阿尔加维法鲁市中心的 Praça Dom Francisco Gomes（弗朗西斯科·戈麦斯广场）。" },
+      { "q": "码头免费吗？", "a": "滨水区域免费公开，乘船游览需付费。" },
+      { "q": "什么时间最适合游览？", "a": "春季和秋季气温宜人。" },
+      { "q": "从机场如何到达？", "a": "可从法鲁机场（FAO）乘出租车、巴士或租车前往，约 10 公里。" }
+    ]
+  },
+  "footer": {
+    "siteName": "法鲁码头指南",
+    "description": "关于法鲁码头的多语言信息指南。",
+    "disclaimer": "本站是基于公开数据的资讯指南，不售票、不提供预订。",
+    "copyright": "© 2026 法鲁码头指南。保留所有权利。"
+  }
+}
