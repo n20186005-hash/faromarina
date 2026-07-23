@@ -4,17 +4,30 @@ import { getI18n } from '../i18n/ui';
 const { messages } = getI18n(Astro.url);
 const f = messages.faq;
 const items = f.items ?? [];
+const cats = f?.categories ?? [
+  { id: 'general', label: 'Geral / 一般' },
+  { id: 'access', label: 'Acesso / 交通' },
+  { id: 'amenities', label: 'Serviços / 设施' },
+];
 ---
 
 <section id="faq" class="section-shell">
   <div class="max-w-3xl mx-auto px-4 py-16 sm:py-20">
-    <div class="text-center mb-12">
+    <div class="text-center mb-8">
       <h2 class="font-display text-3xl sm:text-4xl font-bold" style="color: var(--text-primary);">{f.title}</h2>
     </div>
 
-    <div class="space-y-3">
+    <nav class="flex flex-wrap gap-2 justify-center mb-8" id="faq-cats">
+      {cats.map((c) => (
+        <button type="button" data-cat={c.id} class="faq-btn rounded-full px-3 py-1.5 text-sm font-medium" style="background: var(--card-bg); border:1px solid var(--border-color); color: var(--text-secondary);">
+          {c.label}
+        </button>
+      ))}
+    </nav>
+
+    <div class="space-y-3" id="faq-list">
       {items.map((it) => (
-        <details class="rounded-2xl p-5" style="background: var(--card-bg); border: 1px solid var(--border-color);">
+        <details class="rounded-2xl p-5" data-cat={it.cat ?? 'general'} style="background: var(--card-bg); border: 1px solid var(--border-color);">
           <summary class="font-semibold cursor-pointer list-none flex items-center justify-between" style="color: var(--text-primary);">
             <span>{it.q}</span>
             <span class="text-lg" style="color: var(--text-muted);" aria-hidden="true">+</span>
@@ -25,3 +38,21 @@ const items = f.items ?? [];
     </div>
   </div>
 </section>
+
+<script>
+  function apply(cat: string) {
+    document.querySelectorAll('#faq-list details').forEach((d) => {
+      const c = (d as HTMLElement).dataset.cat ?? 'general';
+      (d as HTMLElement).style.display = cat === 'all' || c === cat ? '' : 'none';
+    });
+    document.querySelectorAll('#faq-cats .faq-btn').forEach((b) => {
+      const el = b as HTMLElement;
+      const active = el.dataset.cat === cat;
+      el.style.background = active ? 'var(--color-ocean-600, #0369a1)' : 'var(--card-bg)';
+      el.style.color = active ? '#fff' : 'var(--text-secondary)';
+    });
+  }
+  document.querySelectorAll('#faq-cats .faq-btn').forEach((b) => {
+    b.addEventListener('click', () => apply((b as HTMLElement).dataset.cat ?? 'all'));
+  });
+</script>

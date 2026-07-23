@@ -3,7 +3,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Hero from '../../components/Hero.astro';
 import QuickInfo from '../../components/QuickInfo.astro';
 import About from '../../components/About.astro';
+import History from '../../components/History.astro';
+import Ecology from '../../components/Ecology.astro';
+import Legends from '../../components/Legends.astro';
 import ThingsTodo from '../../components/ThingsTodo.astro';
+import Amenities from '../../components/Amenities.astro';
 import Transport from '../../components/Transport.astro';
 import NearbyPlaces from '../../components/NearbyPlaces.astro';
 import FoodCulture from '../../components/FoodCulture.astro';
@@ -13,6 +17,7 @@ import Reviews from '../../components/Reviews.astro';
 import FAQ from '../../components/FAQ.astro';
 import MapSection from '../../components/MapSection.astro';
 import { getI18n, languagesList } from '../../i18n/ui';
+import { poi } from '../../data/poi';
 
 export function getStaticPaths() {
   return languagesList.map((lang) => ({ params: { lang } }));
@@ -32,14 +37,38 @@ const faqLd = (() => {
     })),
   };
 })();
+
+const amenityLd = {
+  '@context': 'https://schema.org',
+  '@type': 'TouristAttraction',
+  name: messages.header?.siteName ?? poi.name[lang] ?? poi.name.en,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: poi.address,
+    addressLocality: poi.city,
+    addressRegion: poi.region,
+    addressCountry: poi.country,
+  },
+  amenityFeature: [
+    { '@type': 'LocationFeatureSpecification', name: 'Public Restroom', value: true },
+    { '@type': 'LocationFeatureSpecification', name: 'Parking', value: true },
+    { '@type': 'LocationFeatureSpecification', name: 'EV Charging', value: true },
+    { '@type': 'LocationFeatureSpecification', name: 'Public Transport Access', value: true },
+  ],
+};
 ---
 
 <BaseLayout title={messages.meta.title} description={messages.meta.description} path="">
   <script slot="head" type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)}></script>
+  <script slot="head" type="application/ld+json" is:inline set:html={JSON.stringify(amenityLd)}></script>
   <Hero />
   <QuickInfo />
   <About />
+  <History />
+  <Ecology />
+  <Legends />
   <ThingsTodo />
+  <Amenities />
   <Transport />
   <NearbyPlaces />
   <FoodCulture />

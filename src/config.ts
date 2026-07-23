@@ -1,6 +1,9 @@
+const siteDomain = process.env.CURRENT_SITE_DOMAIN || 'faromarina.org';
+
 export const siteConfig = {
   name: 'Faro Marina Guide',
-  baseUrl: 'https://faromarina.com',
+  domain: siteDomain,
+  baseUrl: `https://${siteDomain}`,
   slug: 'faro-marina',
   locales: ['pt', 'en', 'zh'] as const,
 };

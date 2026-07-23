@@ -2,33 +2,101 @@
 import { getI18n } from '../i18n/ui';
 import { poi } from '../data/poi';
 
-const { lang, messages } = getI18n(Astro.url);
-const mapsUrl = messages.mapsUrl ?? poi.mapsUrl;
-const h = messages.header;
+const { messages } = getI18n(Astro.url);
+const m = messages.map;
+const mapsUrl = poi.mapsUrl;
+
+const cats = m?.categories ?? [
+  { id: 'wc', label: 'Public Restrooms', icon: '🚻' },
+  { id: 'parking', label: 'Public Parking', icon: '🅿️' },
+  { id: 'ev', label: 'EV Charging', icon: '🔌' },
+  { id: 'transit', label: 'Transit Hubs', icon: '🚉' },
+];
+
+// Neutral public-facility reference points around Faro Marina (type + address only, no business links).
+const points = [
+  { cat: 'wc', name: 'Marina Public WC', addr: 'Praça Dom Francisco Gomes' },
+  { cat: 'wc', name: 'Jardim Manuel Bivar WC', addr: 'Jardim Manuel Bivar' },
+  { cat: 'parking', name: 'Open-air Car Park (marina edge)', addr: 'Largo do Carmo' },
+  { cat: 'parking', name: 'Underground Car Park', addr: 'Near Old Town entrance' },
+  { cat: 'ev', name: 'Public EV Charging (MOBI.E)', addr: 'Marina outer car park' },
+  { cat: 'transit', name: 'Faro Train Station', addr: 'Estação de Faro' },
+  { cat: 'transit', name: 'Bus Terminal', addr: 'Terminal Rodoviário' },
+];
+
+// Exact Google Maps embed for Faro Marina (Praça Dom Francisco Gomes, 8000-168 Faro, Portugal).
+const embedSrc = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3185.755484348681!2d-7.9391308872658515!3d37.01562927207039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0552c0b3f8ded9%3A0xe1b18b9a22ac35d8!2sFaro%20Marina!5e0!3m2!1szh-CN!2sus!4v1784805872330!5m2!1szh-CN!2sus';
 ---
 
-<section id="map" class="section-shell-alt">
-  <div class="max-w-6xl mx-auto px-4 py-16 sm:py-20">
-    <div class="text-center mb-8">
-      <h2 class="font-display text-3xl sm:text-4xl font-bold" style="color: var(--text-primary);">{h.map}</h2>
-      <p class="mt-3 text-sm" style="color: var(--text-secondary);">{poi.address}</p>
-    </div>
+<div class="section-shell">
+  <div class="mx-auto max-w-5xl px-4 py-16">
+    <p class="text-sm font-semibold uppercase tracking-wider" style="color: var(--color-ocean-600, #0369a1);">{m?.title ?? 'Location'}</p>
+    {m?.intro && <p class="mt-2 max-w-2xl" style="color: var(--text-secondary);">{m.intro}</p>}
 
-    <div class="rounded-2xl overflow-hidden border" style="border-color: var(--border-color);">
+    <p class="mt-4 text-sm" style="color: var(--text-secondary);">
+      📍 Praça Dom Francisco Gomes, 8000-168 Faro, Portugal
+    </p>
+
+    <div class="mt-3 overflow-hidden rounded-2xl border" style="border-color: var(--border-color); box-shadow: var(--shadow-card);">
       <iframe
-        title="Faro Marina map"
-        class="w-full h-[420px]"
-        style="border:0;"
+        title="Faro Marina — Google Maps"
+        src={embedSrc}
+        width="100%"
+        height="450"
+        style="border:0; display:block;"
+        allowfullscreen=""
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-        src={`https://www.openstreetmap.org/export/embed.html?bbox=${poi.lng - 0.004}%2C${poi.lat - 0.003}%2C${poi.lng + 0.004}%2C${poi.lat + 0.003}&layer=mapnik&marker=${poi.lat}%2C${poi.lng}`}>
-      </iframe>
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
     </div>
 
-    <div class="mt-6 text-center">
-      <a href={mapsUrl} target="_blank" rel="noopener noreferrer" class="btn-cta btn-cta-primary">
-        🗺️ {messages.hero.ctaMaps}
+    <div class="mt-4 flex flex-wrap gap-2">
+      <button type="button" class="cat-btn" data-cat="all" style="background: var(--color-ocean-600, #0369a1); color:#fff; border:1px solid var(--color-ocean-600, #0369a1);">{m?.all ?? 'All'}</button>
+      {cats.map((c) => (
+        <button type="button" class="cat-btn" data-cat={c.id} style="background: var(--card-bg); color: var(--text-secondary); border:1px solid var(--border-color);">
+          <span>{c.icon}</span> {c.label}
+        </button>
+      ))}
+    </div>
+
+    <ul id="map-list" class="mt-4 grid gap-3 sm:grid-cols-2">
+      {points.map((p) => (
+        <li data-cat={p.cat} class="rounded-xl border p-4" style="border-color: var(--border-color); background: var(--card-bg);">
+          <div class="flex items-start gap-3">
+            <span class="inline-flex h-9 w-9 flex-none items-center justify-center rounded-full" style="background: var(--color-ocean-50, #f0f9ff);">{cats.find((c) => c.id === p.cat)?.icon ?? '📍'}</span>
+            <div>
+              <p class="font-semibold" style="color: var(--text-primary);">{p.name}</p>
+              <p class="text-sm" style="color: var(--text-secondary);">{p.addr}</p>
+            </div>
+          </div>
+        </li>
+      ))}
+    </ul>
+
+    <div class="mt-4">
+      <a href={mapsUrl} target="_blank" rel="noopener" class="btn-base" style="display:inline-flex; align-items:center; gap:.4rem; background: var(--color-ocean-600, #0369a1); color:#fff; padding:.6rem 1.1rem; border-radius:.6rem; font-weight:600;">
+        🗺️ {m?.ctaOpen ?? 'Open in Google Maps'} ↗
       </a>
     </div>
   </div>
-</section>
+</div>
+
+<script>
+  const catsBox = document.getElementById('map-cats') ?? document.querySelector('.cat-btn')?.parentElement;
+  const listItems = Array.from(document.querySelectorAll('#map-list li'));
+  function apply(cat: string) {
+    listItems.forEach((li) => {
+      const c = (li as HTMLElement).dataset.cat ?? '';
+      (li as HTMLElement).style.display = cat === 'all' || c === cat ? '' : 'none';
+    });
+    (catsBox as HTMLElement)?.querySelectorAll('.cat-btn').forEach((b) => {
+      const el = b as HTMLElement;
+      const active = el.dataset.cat === cat || (cat === 'all' && el.dataset.cat === 'all');
+      el.style.background = active ? 'var(--color-ocean-600, #0369a1)' : 'var(--card-bg)';
+      el.style.color = active ? '#fff' : 'var(--text-secondary)';
+    });
+  }
+  (catsBox as HTMLElement)?.querySelectorAll('.cat-btn').forEach((b) => {
+    b.addEventListener('click', () => apply((b as HTMLElement).dataset.cat ?? 'all'));
+  });
+</script>

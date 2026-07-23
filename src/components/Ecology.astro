@@ -1,0 +1,41 @@
+---
+import { getI18n } from '../i18n/ui';
+
+const { messages } = getI18n(Astro.url);
+const e = messages.ecology;
+const paragraphs = e.paragraphs ?? [];
+const species = e.species ?? [];
+---
+
+<section id="ecology" class="section-shell-alt">
+  <div class="max-w-5xl mx-auto px-4 py-16 sm:py-20">
+    <div class="text-center mb-10">
+      <h2 class="font-display text-3xl sm:text-4xl font-bold" style="color: var(--text-primary);">{e.title}</h2>
+      {e.intro && <p class="mt-3 max-w-2xl mx-auto text-base sm:text-lg" style="color: var(--text-secondary);">{e.intro}</p>}
+    </div>
+
+    <div class="grid gap-4 md:grid-cols-2 mb-12">
+      {paragraphs.map((p) => (
+        <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{p}</p>
+      ))}
+    </div>
+
+    <div class="flex items-center gap-2 mb-5">
+      <span class="h-px flex-1" style="background: var(--border-color);"></span>
+      <span class="text-xs uppercase tracking-[0.18em] font-semibold" style="color: var(--text-muted);">Fauna & Flora</span>
+      <span class="h-px flex-1" style="background: var(--border-color);"></span>
+    </div>
+
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+      {species.map((s) => (
+        <div class="species-card">
+          <span class="emoji" aria-hidden="true">{s.emoji}</span>
+          <div>
+            <p class="name">{s.name}</p>
+            <p class="note">{s.note}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

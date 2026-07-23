@@ -60,6 +60,30 @@ const jsonLd = {
   sameAs: [poi.mapsUrl],
 };
 
+const civicLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CivicStructure',
+  name: localName,
+  alternateName: poi.alternateName[lang] ?? poi.alternateName.en,
+  category: 'Marina / Harbour',
+  description: description,
+  url: canonical,
+  image: siteConfig.baseUrl + poi.heroImage,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: poi.address,
+    addressLocality: poi.city,
+    addressRegion: poi.region,
+    addressCountry: poi.country,
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: poi.lat,
+    longitude: poi.lng,
+  },
+  historicalSignificance: messages.history?.historicalSignificance ?? '',
+};
+
 const breadcrumbLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -97,6 +121,7 @@ const breadcrumbLd = {
     <meta name="twitter:image" content={siteConfig.baseUrl + poi.heroImage} />
 
     <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)}></script>
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(civicLd)}></script>
     <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)}></script>
 
     <script is:inline>

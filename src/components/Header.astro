@@ -19,6 +19,9 @@ const switchTo = (l: string) => (pageSeg ? `/${l}/${pageSeg}` : `/${l}`);
 
     <nav class="hidden md:flex items-center gap-4 text-sm lg:gap-5" style="color: var(--text-secondary);">
       <a href={`/${lang}#about`} class="hover:opacity-70">{h.visit}</a>
+      <a href={`/${lang}#history`} class="hover:opacity-70">{h.history}</a>
+      <a href={`/${lang}#ecology`} class="hover:opacity-70">{h.ecology}</a>
+      <a href={`/${lang}#legends`} class="hover:opacity-70">{h.legends}</a>
       <a href={`/${lang}#transport`} class="hover:opacity-70">{h.transport}</a>
       <a href={`/${lang}#nearby`} class="hover:opacity-70">{h.nearby}</a>
       <a href={`/${lang}#food`} class="hover:opacity-70">{h.food}</a>
@@ -55,6 +58,9 @@ const switchTo = (l: string) => (pageSeg ? `/${l}/${pageSeg}` : `/${l}`);
   <div id="mobile-menu" class="md:hidden hidden border-t px-4 py-4" style="border-color: var(--border-color); background: color-mix(in srgb, var(--bg-primary) 96%, transparent);">
     <nav class="grid grid-cols-2 gap-2 text-sm" style="color: var(--text-secondary);">
       <a href={`/${lang}#about`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);">{h.visit}</a>
+      <a href={`/${lang}#history`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);">{h.history}</a>
+      <a href={`/${lang}#ecology`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);">{h.ecology}</a>
+      <a href={`/${lang}#legends`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);">{h.legends}</a>
       <a href={`/${lang}#transport`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);">{h.transport}</a>
       <a href={`/${lang}#nearby`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);">{h.nearby}</a>
       <a href={`/${lang}#food`} class="rounded-lg px-3 py-2 border hover:opacity-80" style="border-color: var(--border-color);">{h.food}</a>

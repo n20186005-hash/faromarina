@@ -1,0 +1,37 @@
+---
+import { getI18n } from '../i18n/ui';
+
+const { messages } = getI18n(Astro.url);
+const p = messages.practical;
+const groups = p?.groups ?? [];
+---
+
+<section id="practical" class="section-shell">
+  <div class="max-w-5xl mx-auto px-4 py-16 sm:py-20">
+    <div class="text-center mb-12">
+      <h2 class="font-display text-3xl sm:text-4xl font-bold" style="color: var(--text-primary);">{p.title}</h2>
+      {p.intro && <p class="mt-3 max-w-3xl mx-auto text-base sm:text-lg" style="color: var(--text-secondary);">{p.intro}</p>}
+    </div>
+
+    <div class="grid gap-5 md:grid-cols-2">
+      {
+        groups.map((g) => (
+          <div class="rounded-2xl p-6" style="background: var(--card-bg); border: 1px solid var(--border-color);">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-2xl" aria-hidden="true">{g.icon}</span>
+              <h3 class="font-semibold text-lg" style="color: var(--text-primary);">{g.title}</h3>
+            </div>
+            <ul class="space-y-2">
+              {g.items.map((it) => (
+                <li class="text-sm leading-relaxed flex gap-2" style="color: var(--text-secondary);">
+                  <span aria-hidden="true" style="color: var(--color-ocean-600, #0369a1);">•</span>
+                  <span>{it}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

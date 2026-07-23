@@ -39,7 +39,13 @@ const h = messages.header;
       </div>
     </div>
 
-    <div class="mt-10 pt-6 border-t text-center text-xs" style="border-color: var(--border-color); color: var(--text-muted);">
+    <nav class="mt-10 pt-6 border-t flex flex-wrap items-center justify-center gap-4 text-xs" style="border-color: var(--border-color); color: var(--text-muted);" aria-label={f.legalTitle}>
+      <a href={`/${lang}/privacy-policy`} class="hover:underline">{f.privacy}</a>
+      <a href={`/${lang}/terms-of-service`} class="hover:underline">{f.terms}</a>
+      <a href={`/${lang}/cookie-settings`} class="hover:underline">{f.cookie}</a>
+    </nav>
+
+    <div class="pt-4 text-center text-xs" style="color: var(--text-muted);">
       {f.copyright}
     </div>
   </div>

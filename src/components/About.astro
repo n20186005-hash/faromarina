@@ -15,5 +15,10 @@ const paragraphs = a.paragraphs ?? [];
         <p>{p}</p>
       ))}
     </div>
+    {a.managedBy && (
+      <div class="mt-6 rounded-xl px-4 py-3 text-sm" style="background: var(--color-ocean-50, #f0f9ff); border:1px solid var(--color-ocean-200, #bae6fd); color: var(--color-ocean-800, #0c4a6e);">
+        🏛️ <span class="font-semibold">{a.managedBy}</span>
+      </div>
+    )}
   </div>
 </section>

@@ -18,8 +18,8 @@ export const poi = {
   lat: 37.0154,
   lng: -7.9347,
 
-  // Stable Google Maps place/search URL (open in maps on every device).
-  mapsUrl: 'https://www.google.com/maps/search/?api=1&query=37.0154%2C-7.9347',
+  // Official Google Maps short link for Faro Marina.
+  mapsUrl: 'https://maps.app.goo.gl/XPFdhSB6k3LhYxe8A',
 
   opening: { pt: 'Aberto 24 horas', en: 'Open 24 hours', zh: '全天开放' },
   category: { pt: 'Frente Marítima', en: 'Waterfront', zh: '海滨' },

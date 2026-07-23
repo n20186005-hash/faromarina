@@ -111,3 +111,121 @@ body {
 .section-shell-alt {
   background: var(--section-alt);
 }
+
+/* ===== Interactive Timeline ===== */
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  padding-left: 1.25rem;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0.5rem;
+  top: 0.25rem;
+  bottom: 0.25rem;
+  width: 2px;
+  background: color-mix(in srgb, var(--color-ocean-600, #0369a1) 40%, transparent);
+}
+.timeline-item {
+  position: relative;
+  padding: 0 0 1.5rem 1.5rem;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.timeline-item.in-view {
+  opacity: 1;
+  transform: none;
+}
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -1.1rem;
+  top: 0.35rem;
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 9999px;
+  background: var(--color-ocean-600, #0369a1);
+  border: 3px solid var(--card-bg);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-ocean-600, #0369a1) 30%, transparent);
+}
+.timeline-year {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--color-ocean-700, #075985);
+}
+.timeline-body {
+  margin-top: 0.15rem;
+}
+.timeline-body h4 {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.timeline-body p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-top: 0.15rem;
+}
+
+/* ===== Species / Fauna micro-cards ===== */
+.species-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  border-radius: 1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+.species-card .emoji {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+.species-card .name {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.species-card .note {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+/* ===== Audio Tour placeholder ===== */
+.audio-tour {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.85rem 1.1rem;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, var(--color-ocean-700, #075985), var(--color-ocean-500, #0ea5e9));
+  color: #fff;
+}
+.audio-tour .play {
+  flex-shrink: 0;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 9999px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  font-size: 1.1rem;
+}
+.audio-tour .meta-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.audio-tour .meta-sub {
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+.audio-tour .badge {
+  margin-left: auto;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}

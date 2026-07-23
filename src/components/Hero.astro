@@ -38,5 +38,25 @@ const mapsUrl = messages.mapsUrl ?? poi.mapsUrl;
         🗺️ {h.ctaMaps}
       </a>
     </div>
+
+    <nav class="mt-9 flex flex-wrap items-stretch justify-center gap-2 max-w-3xl mx-auto" aria-label="Practical services">
+      {[
+        { icon: '🅿️', label: '停车指引', anchor: '#practical' },
+        { icon: '🚻', label: '公共洗手间', anchor: '#practical' },
+        { icon: '🔌', label: '加油/充电', anchor: '#practical' },
+        { icon: '🛒', label: '补给/商超', anchor: '#practical' },
+        { icon: '🍽️', label: '餐饮类型', anchor: '#practical' },
+        { icon: '🏨', label: '住宿分布', anchor: '#practical' },
+      ].map((b) => (
+        <a
+          href={b.anchor}
+          class="flex flex-col items-center gap-1 rounded-xl px-3 py-2 min-w-[88px] text-white/90 hover:text-white transition"
+          style="background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(8px);"
+        >
+          <span class="text-xl" aria-hidden="true">{b.icon}</span>
+          <span class="text-[11px] leading-tight">{b.label}</span>
+        </a>
+      ))}
+    </nav>
   </div>
 </section>

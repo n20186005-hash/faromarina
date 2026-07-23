@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import LegalPage from '../../components/LegalPage.astro';
+import { legal } from '../../data/legal';
+import { languagesList } from '../../i18n/ui';
+
+export function getStaticPaths() {
+  return languagesList.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const doc = legal[lang].terms;
+const messages = (await import(`../../i18n/${lang}.json`)).default;
+---
+
+<BaseLayout title={`${doc.title} · ${messages.footer.siteName}`} description={doc.title} path="terms-of-service" lang={lang}>
+  <LegalPage doc={doc} />
+</BaseLayout>

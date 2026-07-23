@@ -1,5 +1,5 @@
 {
-  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=37.0154%2C-7.9347",
+  "mapsUrl": "https://maps.app.goo.gl/XPFdhSB6k3LhYxe8A",
   "meta": {
     "title": "Faro Marina Travel Guide | Things To Do in Faro Portugal",
     "description": "Discover Faro Marina, waterfront views, nearby attractions and travel information for your visit to the Algarve."
@@ -14,6 +14,9 @@
     "tagline": "Doca de Faro",
     "home": "Home",
     "visit": "Visit",
+    "history": "History",
+    "ecology": "Nature",
+    "legends": "Legends",
     "transport": "Getting There",
     "nearby": "Nearby",
     "food": "Food",
@@ -21,6 +24,18 @@
     "reviews": "Reviews",
     "faq": "FAQ",
     "map": "Map"
+  },
+  "map": {
+    "title": "Location & Nearby Facilities Map",
+    "intro": "This map marks public facility types and locations around Faro Marina (restrooms, public car parks, EV charging, transit hubs). Click a category to filter — it shows only facility info, with no business links.",
+    "all": "All",
+    "ctaOpen": "Open in Google Maps",
+    "categories": [
+      { "id": "wc", "label": "Restrooms", "icon": "🚻" },
+      { "id": "parking", "label": "Car Parks", "icon": "🅿️" },
+      { "id": "ev", "label": "EV Charging", "icon": "🔌" },
+      { "id": "transit", "label": "Transit Hubs", "icon": "🚉" }
+    ]
   },
   "hero": {
     "title": "Faro Marina",
@@ -46,7 +61,54 @@
       "Faro Marina is the waterfront area located in the historic center of Faro, Algarve.",
       "It sits next to Praça Dom Francisco Gomes, connecting the old town with the Ria Formosa lagoon.",
       "It is a starting point for boat trips and a peaceful place for seaside walks."
+    ],
+    "managedBy": "Managed by Docapesca – Portos e Lotas, S.A. (Portuguese ports & fish-market authority) together with the Câmara Municipal de Faro (Faro City Council)."
+  },
+  "history": {
+    "title": "History & Maritime Heritage",
+    "intro": "From an ancient trading port to the maritime gateway of the Algarve.",
+    "historicalSignificance": "A sheltered Moorish-origin harbour, raised to the Algarve's maritime centre after the 1755 earthquake and regional capital since 1756.",
+    "paragraphs": [
+      "The history of Faro Marina (Doca de Faro) goes back to the Moorish period, when Faro was known as Santa Maria de Faaron. As a natural sheltered harbour at the southern tip of the Iberian Peninsula, it was an important trade hub for salt, olive oil, figs and dried fish with the Mediterranean and North Africa.",
+      "The 1755 Lisbon earthquake and the ensuing tsunami destroyed much of the Algarve coastline. However, thanks to the natural barrier-island protection of the Ria Formosa lagoon, the marina and old town suffered less direct impact. In 1756, Faro replaced the heavily damaged Silves and Lagos as the capital of the Algarve, and the marina became the region's political and economic maritime hub.",
+      "During the Age of Discovery, the marina was a stopover for explorers and merchant ships. Today mostly yachts and sailboats moor here, yet the water's topology still preserves the historical layout rebuilt in the 18th century."
+    ],
+    "timeline": [
+      { "year": "1249", "title": "Reconquest of Faro", "text": "King Afonso III conquers Faro; the ancient port joins the Kingdom of Portugal." },
+      { "year": "1755", "title": "Lisbon Earthquake", "text": "The tsunami hits the Algarve, but the Ria Formosa shields Faro; the city is less damaged." },
+      { "year": "1756", "title": "Capital of the Algarve", "text": "Faro becomes the capital of the Algarve, raising the marina to a regional hub." },
+      { "year": "1812", "title": "Arco da Vila", "text": "Bishop D. Francisco Gomes leads the building of Arco da Vila, shaping the square." },
+      { "year": "1987", "title": "Natural Park", "text": "Creation of the Ria Formosa Natural Park; the marina becomes an ecotourism hub." }
     ]
+  },
+  "ecology": {
+    "title": "Natural Heritage: Ria Formosa Lagoon",
+    "intro": "The land gateway to the Ria Formosa Natural Park.",
+    "paragraphs": [
+      "Faro Marina is not just a human mooring point — it is the land gateway to the Ria Formosa Natural Park. The site was designated a natural park in 1987 and was voted one of the 'Seven Natural Wonders of Portugal'.",
+      "The lagoon is formed by 5 barrier islands and 2 peninsulas. Two daily tides bring rich nutrients, creating a unique salt-marsh ecosystem.",
+      "The waters host seahorses (Hippocampus guttulatus and Hippocampus hippocampus), threatened species. The seagrass beds are an ideal nursery for them.",
+      "During spring and autumn migrations, over 20,000 waterbirds rest here, including flamingos, the purple swamphen (the park's emblem) and spoonbills."
+    ],
+    "species": [
+      { "emoji": "🦩", "name": "Greater Flamingo", "note": "Best viewing: Nov – Mar" },
+      { "emoji": "🐴", "name": "Long-snouted Seahorse", "note": "Protected underwater species" },
+      { "emoji": "🌿", "name": "Salt-marsh Plants", "note": "Intertidal ecosystem" },
+      { "emoji": "🐦", "name": "Migratory Birds", "note": "Over 20,000 birds per year" }
+    ]
+  },
+  "legends": {
+    "title": "Legends & Architecture",
+    "intro": "The stories and design behind the landmarks near the marina.",
+    "items": [
+      { "emoji": "🏛️", "title": "Arco da Vila & the enlightened bishop", "text": "Near the marina, the Arco da Vila is Faro's most representative neoclassical building. It was designed by Italian architect Francisco Xavier Fabri in 1812 at the invitation of the enlightened bishop D. Francisco Gomes de Avelar. A niche on its façade houses St. Thomas Aquinas, the patron saint of Faro." },
+      { "emoji": "📜", "title": "The legend of the Enchanted Moorish Princess", "text": "Legend says that on the eve of 1249, a Moorish princess hid her family's treasure in the wells and waters by the old walls. On St. John's Eve, visitors boating the marina may sometimes hear the distant singing of the young Moorish maiden from deep in the marsh." }
+    ],
+    "audioTour": {
+      "title": "3-Minute Audio Tour",
+      "label": "Listen to the story of Arco da Vila",
+      "note": "Coming soon"
+    }
   },
   "thingsTodo": {
     "title": "Things To Do",
@@ -86,22 +148,82 @@
       "steps": ["Faro Marina", "Praça Dom Francisco Gomes", "Arco da Vila", "Faro Cathedral", "Old Town"]
     }
   },
+  "practical": {
+    "title": "Practical Info & Public Amenities",
+    "intro": "A guide to public services and facilities around Faro Marina — maintained in a neutral, independent way, without recommending any specific brands or businesses.",
+    "groups": [
+      {
+        "icon": "🚻",
+        "title": "Restrooms & Public Utilities",
+        "items": [
+          "Marina restrooms: near the marina square service area, with standard cubicles and an accessible WC (PRM accessible).",
+          "Old Town and park facilities: by Jardim Manuel Bivar and the Arco da Vila gate.",
+          "Usage tip: some public restrooms may require small coins (0.50–1.00 EUR) or a scan-to-pay code; carry change. All public areas have step-free access."
+        ]
+      },
+      {
+        "icon": "🅿️",
+        "title": "Parking & Vehicle Access",
+        "items": [
+          "Blue Zone (time-limited parking): along the marina and side streets, with roadside meters where you buy and display a ticket.",
+          "Open-air public car parks: large areas on the marina outskirts and by the railway line, suited to long stays.",
+          "Underground car park: near the Old Town entrance, covered and cooler, charged by the hour.",
+          "Drop-off zone: short-stay bays at the marina entrance, for taxis and passenger pick-up/drop-off only."
+        ]
+      },
+      {
+        "icon": "🔌",
+        "title": "Fuel & EV Charging",
+        "items": [
+          "Public EV charging (MOBI.E network): in the outer marina car parks and along main roads, with 11/22 kW AC and rapid charging, payable by card or app.",
+          "Fuel stations: along the N125 and towards Faro Airport, with Gasolina 95/98, Gasóleo and self-service wash/air."
+        ]
+      },
+      {
+        "icon": "🛒",
+        "title": "Supermarkets, Shops & Supplies",
+        "items": [
+          "Municipal Market (Mercado Municipal): on the Old Town edge, best for fresh fruit, seafood, olive oil and local produce.",
+          "Neighbourhood minimarkets / supermarkets: around the marina and nearby streets, for water, snacks and sunscreen.",
+          "Pharmacy (Farmácia): on the Old Town shopping street and main junctions, marked with a green cross, for over-the-counter medicine and basics."
+        ]
+      },
+      {
+        "icon": "🍽️",
+        "title": "Dining & Meal Times",
+        "items": [
+          "Marina-view snack-bar / café: for coffee, Pastel de Nata and light salads by day, with harbour views.",
+          "Traditional tavern / restaurante típico: in the Old Town alleys, with grilled fish, Cataplana and home-style dishes.",
+          "Meal-time tip: lunch 12:30–15:00, dinner 19:30–22:30; some taverns close between 15:00 and 19:00."
+        ]
+      },
+      {
+        "icon": "🏨",
+        "title": "Accommodation Areas & Types",
+        "items": [
+          "Marina-view hotels & apartments: next to the Marina, with open waterfront views and easy ferry access.",
+          "Old Town B&B / guest house: inside or around the walls, in old buildings — cultural feel, but cobbled streets are tricky for large luggage.",
+          "Hostel & budget stays: between the train station and the marina, for backpackers and independent travellers."
+        ]
+      }
+    ]
+  },
   "transport": {
     "title": "How To Get There",
     "intro": "Faro Marina is in the city center, a short walk from the train station and the bus terminal.",
     "byAir": {
       "title": "By Plane",
-      "body": "Faro Airport (FAO) is about 10 km away. You can get there by taxi, bus or rental car.",
+      "body": "Faro Airport (FAO) lies about 10 km west of the marina. From arrivals you can take the Próximo city bus line 16 (~20 min) to the Terminal Rodoviário, then a 3-minute walk to the marina; taxis and rideshare take roughly 15 minutes, and car-rental desks are available on site.",
       "options": ["Taxi", "Bus", "Car Rental"],
       "distance": "About 10 km"
     },
     "byTrain": {
       "title": "By Train",
-      "body": "Faro Train Station is a short walk from the marina."
+      "body": "Faro railway station (Estação de Faro) is within walking distance: exit and follow Av. da República southeast for about 500 m (6–8 min) to reach the marina. The Terminal Rodoviário (central bus station) sits directly opposite the marina entrance, a walk of under 3 minutes. Próximo city buses stop at Praça Dom Francisco Gomes / Terminal Rodoviário."
     },
     "byCar": {
       "title": "By Car",
-      "body": "Parking is available nearby. Use the button to open the route in Google Maps.",
+      "body": "Navigate to Praça Dom Francisco Gomes, 8000-168 Faro. The marina is well signed from the A22 / IC4. Several public parking areas and a limited drop-off zone sit within a few minutes' walk of the waterfront.",
       "cta": "Open Route in Maps"
     }
   },
@@ -154,13 +276,20 @@
       { "q": "Where is Faro Marina?", "a": "It is at Praça Dom Francisco Gomes, in the center of Faro, Algarve." },
       { "q": "Is the marina free?", "a": "The waterfront is public and free to access; boat trips are paid." },
       { "q": "What is the best time to visit?", "a": "Spring and autumn offer pleasant temperatures." },
-      { "q": "How to get from the airport?", "a": "You can take a taxi, bus or rental car from Faro Airport (FAO), about 10 km away." }
+      { "q": "How to get from the airport?", "a": "You can take a taxi, bus or rental car from Faro Airport (FAO), about 10 km away." },
+      { "q": "Is parking easy near the Marina?", "a": "There is a Blue Zone time-limited area by the marina, open-air car parks and an underground car park near the Old Town. In peak season spaces fill up — arrive early or use public transport." },
+      { "q": "Do public restrooms charge a fee?", "a": "Some public restrooms may require small coins (0.50–1.00 EUR) or a scan-to-pay code. Carry change; all public areas have step-free access." },
+      { "q": "Are there EV charging points nearby?", "a": "Yes, on the public MOBI.E network, in the outer marina car parks and along main roads, with 11/22 kW AC and rapid charging, payable by card or app." }
     ]
   },
   "footer": {
     "siteName": "Faro Marina Guide",
     "description": "A multilingual information guide to Faro Marina.",
-    "disclaimer": "This site is an informational guide based on public data and does not sell tickets or bookings.",
-    "copyright": "© 2026 Faro Marina Guide. All rights reserved."
+    "disclaimer": "This is an independent, non-profit visitor information project, not affiliated with any government agency or official organisation. Attraction information is verified against public sources from Câmara Municipal de Faro, Turismo do Algarve and Turismo de Portugal, with no commercial endorsement.",
+    "copyright": "© 2026 Faro Marina Guide. All rights reserved.",
+    "legalTitle": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookie": "Cookie Settings"
   }
 }

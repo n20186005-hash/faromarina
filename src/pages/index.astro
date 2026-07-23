@@ -1,5 +1,7 @@
 ---
+import { siteConfig } from '../config';
 const target = '/pt';
+const canonical = `${siteConfig.baseUrl}/pt`;
 ---
 
 <!doctype html>
@@ -7,7 +9,7 @@ const target = '/pt';
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="refresh" content={`0; url=${target}`} />
-    <link rel="canonical" href="https://faromarina.com/pt" />
+    <link rel="canonical" href={canonical} />
     <title>Faro Marina Guide · Guia da Marina de Faro</title>
   </head>
   <body>

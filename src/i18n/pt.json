@@ -1,5 +1,5 @@
 {
-  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=37.0154%2C-7.9347",
+  "mapsUrl": "https://maps.app.goo.gl/XPFdhSB6k3LhYxe8A",
   "meta": {
     "title": "Marina de Faro | Guia de Visita",
     "description": "Conheça a Marina de Faro, um dos pontos marítimos mais conhecidos do Algarve. Localização, transportes, atrações próximas e dicas de visita."
@@ -14,6 +14,9 @@
     "tagline": "Doca de Faro",
     "home": "Início",
     "visit": "Visitar",
+    "history": "História",
+    "ecology": "Natureza",
+    "legends": "Lendas",
     "transport": "Como Chegar",
     "nearby": "Perto",
     "food": "Gastronomia",
@@ -21,6 +24,18 @@
     "reviews": "Avaliações",
     "faq": "FAQ",
     "map": "Mapa"
+  },
+  "map": {
+    "title": "Mapa de Localização e Equipamentos",
+    "intro": "Este mapa assinala os tipos e locais de equipamentos públicos em redor da Marina de Faro (sanitários, parques de estacionamento, carregamento de VE, nós de transporte). Clique numa categoria para filtrar — mostra apenas a informação do equipamento, sem ligações a comércios.",
+    "all": "Tudo",
+    "ctaOpen": "Abrir no Google Maps",
+    "categories": [
+      { "id": "wc", "label": "Sanitários", "icon": "🚻" },
+      { "id": "parking", "label": "Parques", "icon": "🅿️" },
+      { "id": "ev", "label": "Carregamento VE", "icon": "🔌" },
+      { "id": "transit", "label": "Nós de Transporte", "icon": "🚉" }
+    ]
   },
   "hero": {
     "title": "Marina de Faro",
@@ -46,7 +61,54 @@
       "A Marina de Faro é a zona ribeirinha da cidade de Faro, no Algarve, Portugal.",
       "Está situada junto à Praça Dom Francisco Gomes, ligando o centro histórico à laguna da Ria Formosa.",
       "É um ponto de partida para passeios de barco e um local calmo para caminhadas à beira-mar."
+    ],
+    "managedBy": "Gerida pela Docapesca – Portos e Lotas, S.A. (autoridade portuária e das lotas de Portugal) em conjunto com a Câmara Municipal de Faro."
+  },
+  "history": {
+    "title": "História e Património Marítimo",
+    "intro": "De porto comercial antigo a porta marítima do Algarve.",
+    "historicalSignificance": "Porto abrigado de origem muçulmana, elevado a centro marítimo do Algarve após o terramoto de 1755 e capital da região desde 1756.",
+    "paragraphs": [
+      "A história da Marina de Faro (Doca de Faro) remonta ao período muçulmano, quando Faro era conhecida como Santa Maria de Faaron. Como porto abrigado natural no extremo sul da Península Ibérica, foi um importante nó de comércio de sal, azeite, figos e peixe seco com o Mediterrâneo e o Norte de África.",
+      "O grande terramoto de Lisboa de 1755 e o tsunami subsequente destruíram grande parte da costa algarvia. No entanto, graças à proteção natural das ilhas-barreira da Ria Formosa, a marina e a cidade velha sofreram um impacto direto menor. Em 1756, Faro substituiu Silves e Lagos como capital do Algarve, e a marina tornou-se o centro político e económico da região.",
+      "Durante os Descobrimentos, a marina foi um ponto de paragem para expedicionários e navios mercantes. Hoje ancoram sobretudo veleiros e iates, mas a topologia da água mantém a estrutura histórica reconstruída no século XVIII."
+    ],
+    "timeline": [
+      { "year": "1249", "title": "Reconquista de Faro", "text": "D. Afonso III conquista Faro; o antigo porto passa para o Reino de Portugal." },
+      { "year": "1755", "title": "Terramoto de Lisboa", "text": "O tsunami atinge o Algarve, mas a Ria Formosa protege Faro; a cidade sofre menos danos." },
+      { "year": "1756", "title": "Capital do Algarve", "text": "Faro torna-se a capital do Algarve, elevando a marina a centro regional." },
+      { "year": "1812", "title": "Arco da Vila", "text": "O bispo D. Francisco Gomes promove a construção do Arco da Vila, definindo a praça." },
+      { "year": "1987", "title": "Parque Natural", "text": "Criação do Parque Natural da Ria Formosa; a marina vira polo de ecoturismo." }
     ]
+  },
+  "ecology": {
+    "title": "Ciência Natural: a Lagoa da Ria Formosa",
+    "intro": "O ponto de partida terrestre para o Parque Natural da Ria Formosa.",
+    "paragraphs": [
+      "A Marina de Faro não é apenas um ponto de atracagem humano, é o início terrestre do Parque Natural da Ria Formosa. Este sítio foi classificado como parque natural em 1987 e eleito uma das 'Sete Maravilhas Naturais de Portugal'.",
+      "A lagoa é formada por 5 ilhas-barreira e 2 penínsulas. As duas marés diárias trazem nutrientes ricos, criando um ecossistema único de sapais (salt marshes).",
+      "As águas albergan cavalos-marinhos (Hippocampus guttulatus e Hippocampus hippocampus), espécies ameaçadas. Os prados de ervas marinhas são berçário ideal para a sua reprodução.",
+      "Nos períodos de migração da primavera e do outono, mais de 20.000 aves aquáticas descansam aqui, incluindo o flamingo, a galinha-sultana (símbolo do parque) e a colhereira."
+    ],
+    "species": [
+      { "emoji": "🦩", "name": "Flamingo", "note": "Observação ideal: nov a março" },
+      { "emoji": "🐴", "name": "Cavalo-marinho", "note": "Espécie protegida em águas submersas" },
+      { "emoji": "🌿", "name": "Plantas de sapal", "note": "Ecossistema de maré intermédia" },
+      { "emoji": "🐦", "name": "Aves migratórias", "note": "Mais de 20.000 aves por ano" }
+    ]
+  },
+  "legends": {
+    "title": "Lendas e Arquitetura",
+    "intro": "As histórias e o desenho por trás dos marcos junto à marina.",
+    "items": [
+      { "emoji": "🏛️", "title": "Arco da Vila e o bispo iluminista", "text": "Junto à marina, o Arco da Vila é o mais representativo edifício neoclássico de Faro. Foi projetado pelo arquiteto italiano Francisco Xavier Fabri em 1812, a convite do bispo iluminista D. Francisco Gomes de Avelar. Na sua frente, um nicho abriga São Tomás de Aquino, padroeiro de Faro." },
+      { "emoji": "📜", "title": "A lenda da Moura Encantada", "text": "Diz a lenda que, nas vésperas de 1249, uma princesa moura escondeu o tesouro da família nos poços e águas junto às muralhas. Na Noite de S. João, quem passeia de barco pela marina ouve, por vezes, o canto longínquo da jovem moura vindo do fundo do sapal." }
+    ],
+    "audioTour": {
+      "title": "Tour Áudio de 3 Minutos",
+      "label": "Ouça a história do Arco da Vila",
+      "note": "Brevemente disponível"
+    }
   },
   "thingsTodo": {
     "title": "O que Fazer",
@@ -86,22 +148,82 @@
       "steps": ["Marina de Faro", "Praça Dom Francisco Gomes", "Arco da Vila", "Sé de Faro", "Cidade Velha"]
     }
   },
+  "practical": {
+    "title": "Informação Prática e Equipamentos Públicos",
+    "intro": "Um guia de serviços públicos e equipamentos ao redor da Marina de Faro — mantido de forma neutra e independente, sem recomendar marcas ou estabelecimentos comerciais.",
+    "groups": [
+      {
+        "icon": "🚻",
+        "title": "Sanitários e Equipamentos Públicos",
+        "items": [
+          "Sanitários da Marina: perto da zona de serviços da Praça da Marina, com cabines standard e sanitário acessível (WC acessível PRM).",
+          "Sanitários da Cidade Velha e dos jardins: instalados junto ao Jardim Manuel Bivar e à porta do Arco da Vila.",
+          "Dica de utilização: alguns sanitários públicos podem exigir moedas pequenas (0,50–1,00 EUR) ou pagamento por código; leve troco. Todos os espaços públicos têm acesso sem degraus."
+        ]
+      },
+      {
+        "icon": "🅿️",
+        "title": "Estacionamento e Acesso Rodoviário",
+        "items": [
+          "Zona Azul (estacionamento de duração limitada): ao longo da marina e ruas adjacentes, com parquímetros onde se compra e expõe o bilhete no para-brisas.",
+          "Parques de estacionamento ao ar livre: grandes áreas à saída da marina e junto à linha ferroviária, adequadas a estadias longas.",
+          "Parque de estacionamento subterrâneo: perto da entrada da Cidade Velha, coberto e mais fresco, com pagamento por hora.",
+          "Zona de drop-off: estacionamento de curta duração à entrada da marina, reservado a táxis e deixadas/levantamentos de passageiros."
+        ]
+      },
+      {
+        "icon": "🔌",
+        "title": "Abastecimento e Carregamento de VE",
+        "items": [
+          "Postos de carregamento de VE (rede pública MOBI.E): nos parques exteriores da marina e junto às artérias principais, com carregamento AC 11/22 kW e carregamento rápido, pagável com cartão ou app.",
+          "Postos de combustível: ao longo da N125 e no sentido Aeroporto de Faro, com Gasolina 95/98, Gasóleo e equipamento de lavagem/compressão automático."
+        ]
+      },
+      {
+        "icon": "🛒",
+        "title": "Aprovisionamento e Comércio",
+        "items": [
+          "Mercado Municipal: na periferia da Cidade Velha, ideal para fruta fresca, marisco, azeite e produtos agrícolas locais.",
+          "Minimercados e supermercados de bairro: espalhados pela marina e ruas vizinhas, para água, snacks e protector solar.",
+          "Farmácia: na rua comercial da Cidade Velha e nos cruzamentos principais, com cruz verde à porta, para medicamentos sem receita e cuidados básicos."
+        ]
+      },
+      {
+        "icon": "🍽️",
+        "title": "Restauração e Horários",
+        "items": [
+          "Snack-bar / Café com vista de marina: para café, Pastel de Nata e saladas ligeiras durante o dia, com vista para o porto.",
+          "Restaurante típico / Tasca: nas vielas da Cidade Velha, com grelhados de peixe, Cataplana e pratos familiares tradicionais.",
+          "Sugestão de horários: almoço 12:30–15:00, jantar 19:30–22:30; algumas tascas encerram entre 15:00 e 19:00."
+        ]
+      },
+      {
+        "icon": "🏨",
+        "title": "Alojamento por Zona e Tipo",
+        "items": [
+          "Hotéis e apartamentos com vista de marina: junto à Marina, com ampla vista de frente de água e fácil acesso ao ferry.",
+          "B&B / Guest House na Cidade Velha: dentro ou em redor das muralhas, em edifícios antigos — ambiente cultural, mas calçada irregular dificulta bagagens grandes.",
+          "Hostel e alojamento económico: entre a estação de comboios e a marina, para mochileiros e viajantes independentes."
+        ]
+      }
+    ]
+  },
   "transport": {
     "title": "Como Chegar",
     "intro": "A Marina de Faro fica no centro da cidade, a curta distância a pé da estação de comboios e do terminal de autocarros.",
     "byAir": {
       "title": "De Avião",
-      "body": "O Aeroporto de Faro (FAO) fica a cerca de 10 km. Pode chegar de táxi, autocarro ou carro alugado.",
+      "body": "O Aeroporto de Faro (FAO) fica a cerca de 10 km a oeste da marina. Das chegadas, pode apanhar a linha 16 da Próximo (~20 min) até ao Terminal Rodoviário e caminhar 3 minutos até à marina; táxis e TVDE demoram cerca de 15 minutos, e há balcões de aluguer de carro no local.",
       "options": ["Táxi", "Autocarro", "Carro Alugado"],
       "distance": "Cerca de 10 km"
     },
     "byTrain": {
       "title": "De Comboio",
-      "body": "A Estação de Faro fica a uma curta caminhada da marina."
+      "body": "A Estação de Faro está a curta distância a pé: saia e siga pela Av. da República para sudeste cerca de 500 m (6–8 min) até à marina. O Terminal Rodoviário fica mesmo em frente à entrada da marina, a menos de 3 minutos a pé. Os autocarros urbanos Próximo param em Praça Dom Francisco Gomes / Terminal Rodoviário."
     },
     "byCar": {
       "title": "De Carro",
-      "body": "Estacionamento disponível nas proximidades. Use o botão para abrir a rota no Google Maps.",
+      "body": "Navegue até Praça Dom Francisco Gomes, 8000-168 Faro. A marina está bem sinalizada a partir da A22 / IC4. Vários parques de estacionamento públicos e uma zona de largada de passageiros ficam a poucos minutos a pé da frente de rio.",
       "cta": "Abrir Rota no Maps"
     }
   },
@@ -154,13 +276,20 @@
       { "q": "Onde fica a Marina de Faro?", "a": "Fica na Praça Dom Francisco Gomes, no centro de Faro, Algarve." },
       { "q": "A marina é gratuita?", "a": "A zona ribeirinha é pública e de acesso livre; os passeios de barco têm custo." },
       { "q": "Qual é a melhor altura para visitar?", "a": "Primavera e outono oferecem temperaturas agradáveis." },
-      { "q": "Como chegar do aeroporto?", "a": "Pode ir de táxi, autocarro ou carro alugado a partir do Aeroporto de Faro (FAO), a cerca de 10 km." }
+      { "q": "Como chegar do aeroporto?", "a": "Pode ir de táxi, autocarro ou carro alugado a partir do Aeroporto de Faro (FAO), a cerca de 10 km." },
+      { "q": "É fácil estacionar perto da Marina?", "a": "Há Zona Azul de duração limitada junto à marina, parques ao ar livre e um parque subterrâneo perto da Cidade Velha. Em alta temporada, o lugar pode esgotar — recomenda-se chegar cedo ou usar transporte público." },
+      { "q": "Os sanitários públicos são pagos?", "a": "Alguns sanitários públicos podem exigir moedas pequenas (0,50–1,00 EUR) ou pagamento por código. Recomenda-se levar troco; os espaços públicos têm acesso sem degraus." },
+      { "q": "Existem postos de carregamento para carros elétricos?", "a": "Sim, na rede pública MOBI.E, nos parques exteriores da marina e junto às artérias principais, com carregamento AC 11/22 kW e carregamento rápido, pagável com cartão ou app." }
     ]
   },
   "footer": {
     "siteName": "Faro Marina Guide",
     "description": "Guia de informação multilíngue sobre a Marina de Faro.",
-    "disclaimer": "Este site é um guia informativo baseado em dados públicos e não vende bilhetes nem reservas.",
-    "copyright": "© 2026 Faro Marina Guide. Todos os direitos reservados."
+    "disclaimer": "Este é um projeto independente de informação aos visitantes, sem fins lucrativos, não afiliado a qualquer órgão governamental ou organização oficial. A informação sobre o local é verificada com base em fontes públicas da Câmara Municipal de Faro, do Turismo do Algarve e do Turismo de Portugal, sem qualquer recomendação comercial.",
+    "copyright": "© 2026 Faro Marina Guide. Todos os direitos reservados.",
+    "legalTitle": "Legal",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "cookie": "Definições de Cookies"
   }
 }

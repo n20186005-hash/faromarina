@@ -1,0 +1,59 @@
+---
+import { getI18n } from '../i18n/ui';
+
+const { messages } = getI18n(Astro.url);
+const h = messages.history;
+const paragraphs = h.paragraphs ?? [];
+const timeline = h.timeline ?? [];
+---
+
+<section id="history" class="section-shell">
+  <div class="max-w-4xl mx-auto px-4 py-16 sm:py-20">
+    <p class="text-sm font-semibold uppercase tracking-[0.2em] mb-3" style="color: var(--color-ocean-600, #0369a1);">🏛️</p>
+    <h2 class="font-display text-3xl sm:text-4xl font-bold mb-3" style="color: var(--text-primary);">{h.title}</h2>
+    {h.intro && <p class="mb-6 max-w-2xl text-base sm:text-lg" style="color: var(--text-secondary);">{h.intro}</p>}
+
+    <div class="space-y-4 text-base leading-relaxed mb-12" style="color: var(--text-secondary);">
+      {paragraphs.map((p) => (
+        <p>{p}</p>
+      ))}
+    </div>
+
+    <div class="flex items-center gap-2 mb-6">
+      <span class="h-px flex-1" style="background: var(--border-color);"></span>
+      <span class="text-xs uppercase tracking-[0.18em] font-semibold" style="color: var(--text-muted);">Timeline · Linha do Tempo</span>
+      <span class="h-px flex-1" style="background: var(--border-color);"></span>
+    </div>
+
+    <ol class="timeline">
+      {timeline.map((t) => (
+        <li class="timeline-item">
+          <span class="timeline-year">{t.year}</span>
+          <div class="timeline-body">
+            <h4>{t.title}</h4>
+            <p>{t.text}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>
+
+<script is:inline>
+  (function () {
+    var items = document.querySelectorAll('.timeline-item');
+    if (!('IntersectionObserver' in window) || !items.length) {
+      items.forEach(function (el) { el.classList.add('in-view'); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add('in-view');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.25 });
+    items.forEach(function (el) { io.observe(el); });
+  })();
+</script>
