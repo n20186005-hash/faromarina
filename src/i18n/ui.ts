@@ -1,17 +1,25 @@
 import pt from './pt.json';
 import en from './en.json';
 import zh from './zh.json';
+import de from './de.json';
+import es from './es.json';
+import fr from './fr.json';
+import nl from './nl.json';
 
 export const defaultLang = 'pt';
-export const languagesList = ['pt', 'en', 'zh'] as const;
+export const languagesList = ['pt', 'en', 'zh', 'de', 'es', 'fr', 'nl'] as const;
 
 export const languages: Record<string, string> = {
   pt: 'Português',
   en: 'English',
   zh: '中文',
+  de: 'Deutsch',
+  es: 'Español',
+  fr: 'Français',
+  nl: 'Nederlands',
 };
 
-const ui: Record<string, any> = { pt, en, zh };
+const ui: Record<string, any> = { pt, en, zh, de, es, fr, nl };
 
 export function getLangFromUrl(url: URL): string {
   const seg = url.pathname.split('/').filter(Boolean);
@@ -36,12 +44,10 @@ export function buildAlternates(path = ''): Record<string, string> {
   const base = `https://${siteDomain}`;
   const clean = path.replace(/^\/+/, '').replace(/\/+$/, '');
   const mk = (l: string) => `${base}/${l}/${clean ? clean + '/' : ''}`;
-  return {
-    pt: mk('pt'),
-    en: mk('en'),
-    zh: mk('zh'),
-    xDefault: mk('pt'),
-  };
+  const out: Record<string, string> = {};
+  for (const l of languagesList) out[l] = mk(l);
+  out.xDefault = mk('pt');
+  return out;
 }
 
 export function htmlLangAttr(lang: string): string {

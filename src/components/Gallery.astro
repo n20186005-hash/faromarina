@@ -4,8 +4,11 @@ import { getI18n } from '../i18n/ui';
 const { messages } = getI18n(Astro.url);
 const g = messages.gallery;
 
-// 14 images renamed to faro-marina-1..14.jpg
-const images = Array.from({ length: 14 }, (_, i) => `/gallery/faro-marina-${i + 1}.jpg`);
+// 14 images, served as AVIF with a JPEG fallback (next-gen format for Core Web Vitals).
+const images = Array.from({ length: 14 }, (_, i) => ({
+  jpg: `/gallery/faro-marina-${i + 1}.jpg`,
+  avif: `/gallery/faro-marina-${i + 1}.avif`,
+}));
 ---
 
 <section id="gallery" class="section-shell">
@@ -16,9 +19,12 @@ const images = Array.from({ length: 14 }, (_, i) => `/gallery/faro-marina-${i + 
     </div>
 
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
-      {images.map((src) => (
-        <a href={src} target="_blank" rel="noopener noreferrer" class="group block overflow-hidden rounded-2xl aspect-[4/3] bg-slate-100" style="border: 1px solid var(--border-color);">
-          <img src={src} alt={g.title} loading="lazy" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+      {images.map((img) => (
+        <a href={img.jpg} target="_blank" rel="noopener noreferrer" class="group block overflow-hidden rounded-2xl aspect-[4/3] bg-slate-100" style="border: 1px solid var(--border-color);">
+          <picture>
+            <source srcset={img.avif} type="image/avif" />
+            <img src={img.jpg} alt={g.title} loading="lazy" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+          </picture>
         </a>
       ))}
     </div>

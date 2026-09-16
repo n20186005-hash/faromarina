@@ -9,7 +9,13 @@ const mapsUrl = messages.mapsUrl ?? poi.mapsUrl;
 ---
 
 <section id="overview" class="relative min-h-[84vh] sm:min-h-[88vh] flex items-center justify-center text-center overflow-hidden">
-  <div class="absolute inset-0" style={`background-image: linear-gradient(rgba(8,47,73,0.55), rgba(8,47,73,0.62)), url('${poi.heroImage}'); background-size: cover; background-position: center;`}></div>
+  <div class="absolute inset-0">
+    <picture>
+      <source srcset={poi.heroImage.replace(/\.jpg$/, '.avif')} type="image/avif" />
+      <img src={poi.heroImage} alt="" fetchpriority="high" decoding="async" class="w-full h-full object-cover" style="background-size: cover; background-position: center;" />
+    </picture>
+    <div class="absolute inset-0" style="background: linear-gradient(rgba(8,47,73,0.55), rgba(8,47,73,0.62));"></div>
+  </div>
   <div class="relative z-10 px-4 sm:px-6 py-16 sm:py-20 max-w-4xl w-full animate-fade-in-up">
     <span class="inline-flex max-w-full flex-wrap items-center justify-center gap-1 px-3 py-1 mb-5 rounded-full text-xs sm:text-sm font-medium" style="background: rgba(255,255,255,0.15); color: #fff; backdrop-filter: blur(4px);">
       ⭐ {poi.rating} · {poi.reviews.toLocaleString(lang === 'pt' ? 'pt-PT' : lang === 'zh' ? 'zh-CN' : 'en-US')} reviews

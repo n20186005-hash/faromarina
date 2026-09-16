@@ -1,1 +1,34 @@
+# Root -> default locale (kept as 302 so it stays flexible)
 / /pt/ 302
+
+# 301 trailing-slash canonicalisation for every locale + legal page.
+# Keeps ranking signals consolidated on the slash URL (matches <canonical>).
+/en /en/ 301
+/pt /pt/ 301
+/zh /zh/ 301
+/de /de/ 301
+/es /es/ 301
+/fr /fr/ 301
+/nl /nl/ 301
+
+/en/privacy-policy /en/privacy-policy/ 301
+/en/terms-of-service /en/terms-of-service/ 301
+/en/cookie-settings /en/cookie-settings/ 301
+/pt/privacy-policy /pt/privacy-policy/ 301
+/pt/terms-of-service /pt/terms-of-service/ 301
+/pt/cookie-settings /pt/cookie-settings/ 301
+/zh/privacy-policy /zh/privacy-policy/ 301
+/zh/terms-of-service /zh/terms-of-service/ 301
+/zh/cookie-settings /zh/cookie-settings/ 301
+/de/privacy-policy /de/privacy-policy/ 301
+/de/terms-of-service /de/terms-of-service/ 301
+/de/cookie-settings /de/cookie-settings/ 301
+/es/privacy-policy /es/privacy-policy/ 301
+/es/terms-of-service /es/terms-of-service/ 301
+/es/cookie-settings /es/cookie-settings/ 301
+/fr/privacy-policy /fr/privacy-policy/ 301
+/fr/terms-of-service /fr/terms-of-service/ 301
+/fr/cookie-settings /fr/cookie-settings/ 301
+/nl/privacy-policy /nl/privacy-policy/ 301
+/nl/terms-of-service /nl/terms-of-service/ 301
+/nl/cookie-settings /nl/cookie-settings/ 301
