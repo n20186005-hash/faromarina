@@ -34,6 +34,8 @@
     "intro": "Este mapa assinala os tipos e locais de equipamentos públicos em redor da Marina de Faro (sanitários, parques de estacionamento, carregamento de VE, nós de transporte). Clique numa categoria para filtrar — mostra apenas a informação do equipamento, sem ligações a comércios.",
     "all": "Tudo",
     "ctaOpen": "Abrir no Google Maps",
+    "officialTourism": "Para informação oficial de turismo regional, consulte",
+    "officialTourismLink": "Turismo de Portugal",
     "categories": [
       { "id": "wc", "label": "Sanitários", "icon": "🚻" },
       { "id": "parking", "label": "Parques", "icon": "🅿️" },
@@ -214,22 +216,57 @@
   },
   "transport": {
     "title": "Como Chegar",
-    "intro": "A Marina de Faro fica no centro da cidade, a curta distância a pé da estação de comboios e do terminal de autocarros.",
-    "byAir": {
-      "title": "De Avião",
-      "body": "O Aeroporto de Faro (FAO) fica a cerca de 10 km a oeste da marina. Das chegadas, pode apanhar a linha 16 da Próximo (~20 min) até ao Terminal Rodoviário e caminhar 3 minutos até à marina; táxis e TVDE demoram cerca de 15 minutos, e há balcões de aluguer de carro no local.",
-      "options": ["Táxi", "Autocarro", "Carro Alugado"],
-      "distance": "Cerca de 10 km"
-    },
-    "byTrain": {
-      "title": "De Comboio",
-      "body": "A Estação de Faro está a curta distância a pé: saia e siga pela Av. da República para sudeste cerca de 500 m (6–8 min) até à marina. O Terminal Rodoviário fica mesmo em frente à entrada da marina, a menos de 3 minutos a pé. Os autocarros urbanos Próximo param em Praça Dom Francisco Gomes / Terminal Rodoviário."
-    },
-    "byCar": {
-      "title": "De Carro",
-      "body": "Navegue até Praça Dom Francisco Gomes, 8000-168 Faro. A marina está bem sinalizada a partir da A22 / IC4. Vários parques de estacionamento públicos e uma zona de largada de passageiros ficam a poucos minutos a pé da frente de rio.",
-      "cta": "Abrir Rota no Maps"
-    }
+    "intro": "A Marina de Faro fica no centro da cidade, a curta distância a pé da estação de comboios e do terminal de autocarros. Aqui estão as formas práticas de chegar.",
+    "modes": [
+      {
+        "icon": "✈️",
+        "title": "De Avião — Aeroporto de Faro (FAO)",
+        "body": "O Aeroporto de Faro fica a cerca de 7–10 km a oeste da marina. Das chegadas, pode apanhar o autocarro urbano (linha 16 da Próximo) até ao Terminal Rodoviário em cerca de 25–35 minutos; táxis e TVDE (Uber, Bolt) demoram cerca de 15 minutos. Todas as grandes empresas de aluguer de carro têm balcões no aeroporto.",
+        "tips": [
+          "Autocarro urbano linha 16: paga-se a bordo por poucos euros; a frequência baixa à noite e ao fim de semana.",
+          "Táxi ou TVDE para o centro: tipicamente 10–18 €, conforme a hora e a bagagem.",
+          "Carro alugado: compare os balcões no aeroporto e reserve com antecedência no verão."
+        ]
+      },
+      {
+        "icon": "🚌",
+        "title": "Transporte Público — Autocarro, Comboio e Coach",
+        "body": "Os autocarros urbanos de Faro (Próximo) ligam o aeroporto, a estação, a praia e os arredores; compra-se o bilhete a bordo. A estação de comboios é um ponto-chave na Linha do Algarve, com comboios regionais para Lagos e Vila Real de Santo António e serviços rápidos para Lisboa. O Terminal Rodoviário oferece ligações de coach nacionais e internacionais.",
+        "tips": [
+          "Tarifa de autocarro urbano: cerca de 1,80–2,00 €; um cartão recarregável sai mais barato em várias viagens.",
+          "Comboio para Lisboa: Alfa Pendular em cerca de 3 horas — reserve cedo para o melhor preço.",
+          "Coaches: serviços de longa distância e transfronteiriços partem do Terminal Rodoviário, em frente à marina."
+        ]
+      },
+      {
+        "icon": "🚕",
+        "title": "Táxi e TVDE",
+        "body": "As praças de táxi ficam no aeroporto, na estação de comboios e perto da entrada da marina. As apps de transporte (Uber, Bolt) também operam em Faro e têm preço semelhante. Ambos são práticos com bagagem ou em chegadas tardias.",
+        "tips": [
+          "Use as praças sinalizadas ou as apps oficiais; nos táxis, confirme um valor aproximado se não houver taxímetro.",
+          "Da estação à marina é uma viagem muito curta — a pé é muitas vezes mais rápido."
+        ]
+      },
+      {
+        "icon": "🚗",
+        "title": "De Carro e Estacionamento",
+        "body": "Navegue até Praça Dom Francisco Gomes, 8000-168 Faro. A marina está bem sinalizada a partir da A22 / IC4. De Lisboa, siga a A2 e depois a A22 (cerca de 2,5–3 horas); de Espanha, siga a A22 / AP-7. Vários parques de estacionamento públicos e uma zona de largada de passageiros ficam a poucos minutos a pé.",
+        "tips": [
+          "Estacionamento de Zona Azul com duração limitada junto à marina; parques ao ar livre e um parque subterrâneo perto da Cidade Velha para estadias mais longas.",
+          "Em alta temporada o lugar esgota — chegue cedo ou use transporte público."
+        ]
+      },
+      {
+        "icon": "🚶",
+        "title": "A Pé desde a Estação",
+        "body": "A estação de comboios de Faro e o Terminal Rodoviário ficam ambos a curta distância a pé. Saia da estação e siga pela Av. da República para sudeste cerca de 500 m (6–8 minutos) até à marina; o terminal de autocarros fica mesmo em frente à entrada da marina, a menos de 3 minutos a pé.",
+        "tips": [
+          "O percurso é plano e sem degraus — um passeio fácil pela avenida.",
+          "Bagagem com rodas é tranquila; as ruas em calçada começam só dentro da Cidade Velha."
+        ]
+      }
+    ],
+    "cta": "Abrir Rota no Maps"
   },
   "nearby": {
     "title": "Atrações Próximas",
@@ -272,7 +309,13 @@
     "likesTitle": "Os visitantes costumam gostar",
     "tipsTitle": "Dicas aos visitantes",
     "likes": ["Vista para o mar", "Perto do centro histórico", "Ambiente para caminhadas"],
-    "tips": ["Sol forte no verão", "Mais visitantes à tarde"]
+    "tips": ["Sol forte no verão", "Mais visitantes à tarde"],
+    "sourcePrefix": "Avaliação e número de reviews sincronizados das avaliações de utilizadores do Google Maps · set 2026 · ",
+    "sourceLinkLabel": "Ver todas as avaliações no Google Maps",
+    "sourceStatement": "Sincronizado das avaliações de utilizadores do Google Maps, em set 2026; os direitos pertencem aos autores originais e ao Google Maps.",
+    "sourceButton": "Ver todas as avaliações no Google Maps",
+    "sourcesTitle": "Fontes",
+    "sourcesReview": "Avaliações · sincronizado set 2026"
   },
   "faq": {
     "title": "Perguntas Frequentes",
@@ -283,7 +326,8 @@
       { "q": "Como chegar do aeroporto?", "a": "Pode ir de táxi, autocarro ou carro alugado a partir do Aeroporto de Faro (FAO), a cerca de 10 km." },
       { "q": "É fácil estacionar perto da Marina?", "a": "Há Zona Azul de duração limitada junto à marina, parques ao ar livre e um parque subterrâneo perto da Cidade Velha. Em alta temporada, o lugar pode esgotar — recomenda-se chegar cedo ou usar transporte público." },
       { "q": "Os sanitários públicos são pagos?", "a": "Alguns sanitários públicos podem exigir moedas pequenas (0,50–1,00 EUR) ou pagamento por código. Recomenda-se levar troco; os espaços públicos têm acesso sem degraus." },
-      { "q": "Existem postos de carregamento para carros elétricos?", "a": "Sim, na rede pública MOBI.E, nos parques exteriores da marina e junto às artérias principais, com carregamento AC 11/22 kW e carregamento rápido, pagável com cartão ou app." }
+      { "q": "Existem postos de carregamento para carros elétricos?", "a": "Sim, na rede pública MOBI.E, nos parques exteriores da marina e junto às artérias principais, com carregamento AC 11/22 kW e carregamento rápido, pagável com cartão ou app." },
+      { "q": "Que equipamentos públicos existem perto da Marina?", "a": "Sanitários públicos, parques de estacionamento (Zona Azul e subterrâneo), carregamento de VE na rede MOBI.E e nós de transporte ficam a poucos passos — veja a secção de mapa para os locais exatos." }
     ]
   },
   "footer": {
@@ -295,5 +339,124 @@
     "privacy": "Política de Privacidade",
     "terms": "Termos de Serviço",
     "cookie": "Definições de Cookies"
+  },
+  "seasonal": {
+    "title": "Estratégia de Viagem por Estação",
+    "intro": "Um guia trimestral para a Marina de Faro e a Ria Formosa — combinando clima típico, condições do mar e vida selvagem para planear de acordo com a natureza, não apenas o calendário.",
+    "columns": {
+      "season": "Estação",
+      "weather": "Clima e Mar",
+      "water": "Água e Banho",
+      "wildlife": "Vida Selvagem"
+    },
+    "rows": [
+      {
+        "season": "Primavera (Mar–Mai)",
+        "weather": "Ameno 16–22°C, chuva ligeira a diminuir, brisas suaves — a estação mais confortável para caminhar.",
+        "water": "Mar 16–18°C e maioritariamente calmo; ferry das ilhas funciona com regularidade.",
+        "wildlife": "Pico de flamingos e aves migratórias; flores silvestres junto à laguna."
+      },
+      {
+        "season": "Verão (Jun–Ago)",
+        "weather": "Quente 28–35°C, quase sem chuva, UV muito forte ao meio-dia — planear a parte ao ar livre para manhã e tarde.",
+        "water": "Mar 20–24°C, mais quente e movimentado; nadadores-salvadores apenas nas praias do oceano.",
+        "wildlife": "Menos aves migratórias, mas juvenis de peixe e tartarugas marinhas ativas; os passeios de barco estão no auge."
+      },
+      {
+        "season": "Outono (Set–Out)",
+        "weather": "Aguável 22–28°C, mar ainda quente, muito menos multidão — para muitos, a janela ideal.",
+        "water": "Mar ~22°C; calmo e com água limpa, bom para nadar e fotografar.",
+        "wildlife": "As aves começam a regressar; luz suave e lagoas pacíficas."
+      },
+      {
+        "season": "Inverno (Nov–Fev)",
+        "weather": "Ameno 12–18°C mas mais chuvoso, com a eventual tempestade atlântica e céus dramáticos.",
+        "water": "Mar 15–17°C — fresco, para os mais resistentes; alguns ferries reduzem serviço.",
+        "wildlife": "Flamingos e aves invernantes enchem a laguna; a época mais tranquila e barata para a cidade."
+      }
+    ]
+  },
+  "itineraries": {
+    "title": "Itinerários Recomendados",
+    "intro": "Escolha um percurso de acordo com o grupo e o ritmo. Todos começam na Marina de Faro.",
+    "audienceTitle": "Escolha por tipo de visitante",
+    "audiences": [
+      {
+        "icon": "👨‍👩‍👧",
+        "title": "Famílias com crianças",
+        "body": "Curto, plano e sem pressa: vistas ribeirinhas, um parque infantil, um passeio de barco suave e tempo para gelado — sem grandes caminhadas.",
+        "steps": [
+          "Passeio ribeirinho ao longo da marina",
+          "Brincar e descansar no Jardim Manuel Bivar",
+          "Passeio de barco curto até à praia da ilha-barreira mais próxima",
+          "Gelado e jantar cedo antes do calor da tarde"
+        ]
+      },
+      {
+        "icon": "📷",
+        "title": "Fotografia e Natureza",
+        "body": "Construído em torno da luz e da vida selvagem: nascer e pôr do sol na água, um passeio de barco pela laguna, e as texturas da cidade velha.",
+        "steps": [
+          "Nascer do sol sobre a Ria Formosa a partir da marina",
+          "Passeio de barco para a laguna para flamingos e aves",
+          "Becos da Cidade Velha, Arco da Vila e a Sé",
+          "Freira ou ferry para Ilha Deserta / Barreta para horizontes abertos"
+        ]
+      },
+      {
+        "icon": "♿",
+        "title": "Pouco esforço / acessível",
+        "body": "Maioritariamente sem degraus e sem pressa: um café à beira-mar, bancos, e um táxi ou barco curto, evitando longas caminhadas na ilha.",
+        "steps": [
+          "Passeio plano pela frente de rio com bancos frequentes",
+          "Café com vista para o porto",
+          "Táxi curto ou barco adaptado até uma praia acessível",
+          "Regresso tranquilo pela Cidade Velha"
+        ]
+      }
+    ],
+    "routesTitle": "Percursos gerais",
+    "routes": [
+      {
+        "icon": "🌅",
+        "title": "Meio dia (2–3 h)",
+        "body": "Um circuito compacto pela frente de rio e o centro histórico.",
+        "items": [
+          "Marina de Faro e Praça Dom Francisco Gomes",
+          "Arco da Vila e a Cidade Velha",
+          "Sé de Faro e uma paragem de café",
+          "Regresso pela frente de rio"
+        ]
+      },
+      {
+        "icon": "🗺️",
+        "title": "Dia inteiro (5–6 h)",
+        "body": "O circuito de meio dia mais uma experiência na ilha da laguna.",
+        "items": [
+          "Manhã: marina, Cidade Velha e Sé",
+          "Meio-dia: almoço à beira-mar",
+          "Tarde: passeio de barco para Ilha Deserta, Barreta ou Culatra",
+          "Fim: praia ou piquenique e pôr do sol no regresso"
+        ]
+      }
+    ]
+  },
+  "responsibility": {
+    "title": "Ciência e Responsabilidade do Visitante",
+    "intro": "A Marina de Faro é a porta terrestre do Parque Natural da Ria Formosa. Um pouco de consciência ajuda muito a mantê-lo saudável.",
+    "scienceTitle": "Por que a laguna importa",
+    "science": [
+      { "emoji": "🌊", "title": "Berçário do Atlântico", "text": "As pradarias de ervas marinhas e os sapais da laguna são zona de desova de peixes e do cavalos-marinhos-de-focinho-comprido protegido." },
+      { "emoji": "🦩", "title": "Paragem de mais de 20.000 aves", "text": "Duas vezes por ano, dezenas de milhares de aves aquáticas descansam e alimentam-se aqui, incluindo flamingos e a galinha-d'água-reluzente, emblema do parque." },
+      { "emoji": "🛡️", "title": "Uma costa protegida", "text": "Criado em 1987 e votado entre as maravilhas naturais de Portugal, as ilhas-barreira protegem Faro de tempestades e erosão." }
+    ],
+    "dutyTitle": "Como os visitantes ajudam a protegê-la",
+    "duty": [
+      "Leve o seu lixo consigo — os caixotes são limitados na água e nas ilhas.",
+      "Mantenha distância das aves e nunca alimente a vida selvagem.",
+      "Use protetor solar seguro para recifes e evite pisar nas pradarias de ervas marinhas.",
+      "Escolha passeios de barco licenciados e de baixo impacto que sigam as regras do parque.",
+      "Respeite as zonas de acesso proibido sazonais que protegem a nidificação e a desova."
+    ]
   }
 }

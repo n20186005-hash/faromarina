@@ -1,0 +1,107 @@
+---
+import { getI18n } from '../i18n/ui';
+import { poi } from '../data/poi';
+import { ui, fetchWeather, renderWeatherHtml, type Lang } from '../lib/weather';
+
+const { lang } = getI18n(Astro.url);
+const localName = poi.name[lang] ?? poi.name.en;
+const L = (lang === 'pt' || lang === 'zh') ? lang : 'en';
+const u = ui(L);
+
+// Server-side snapshot: fetched and cached at build time so the page ships with
+// real weather (works without JS / for SEO). The client then re-fetches live.
+const snapshot = await fetchWeather(poi.lat, poi.lng);
+const seeded = snapshot !== null;
+const initialHtml = snapshot
+  ? renderWeatherHtml(snapshot.today, snapshot.daily, L, snapshot.tides ?? [])
+  : `<div class="flex items-center justify-center gap-3 py-10 text-sm" style="color: var(--text-secondary);">
+       <span class="inline-block h-4 w-4 animate-spin rounded-full border-2 border-current border-t-transparent" aria-hidden="true"></span>
+       <span>${u.loading}</span>
+     </div>`;
+---
+
+<section id="weather" class="section-shell">
+  <div class="mx-auto max-w-5xl px-4 py-16">
+    <div class="text-center mb-10">
+      <p class="text-sm font-semibold uppercase tracking-wider" style="color: var(--color-ocean-600, #0369a1);">{localName}</p>
+      <h2 class="font-display text-3xl sm:text-4xl font-bold mt-2" style="color: var(--text-primary);">{u.title}</h2>
+      <p class="mt-2 max-w-2xl mx-auto text-sm" style="color: var(--text-secondary);">{u.subtitle}</p>
+    </div>
+
+    <div
+      id="weather-root"
+      data-lat={poi.lat}
+      data-lng={poi.lng}
+      data-lang={L}
+      data-seeded={seeded ? '1' : '0'}
+      set:html={initialHtml}
+      class="rounded-3xl p-6 sm:p-8"
+      style="background: var(--card-bg); border: 1px solid var(--border-color); box-shadow: var(--shadow-card);"
+    >
+    </div>
+  </div>
+</section>
+
+<script>
+  import { fetchWeather, renderWeatherHtml, ui, type Lang } from '../lib/weather';
+
+  const rootEl = document.getElementById('weather-root');
+  if (rootEl) {
+    const root = rootEl;
+    const lat = parseFloat(root.dataset.lat || '0');
+    const lng = parseFloat(root.dataset.lng || '0');
+    const lang = (root.dataset.lang || 'en') as Lang;
+    const seeded = root.dataset.seeded === '1';
+    const u = ui(lang);
+
+    function esc(s: string): string {
+      return s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c] as string));
+    }
+
+    function showLoading() {
+      root.innerHTML = `<div class="flex items-center justify-center gap-3 py-10 text-sm" style="color: var(--text-secondary);">
+        <span class="inline-block h-4 w-4 animate-spin rounded-full border-2 border-current border-t-transparent" aria-hidden="true"></span>
+        <span>${esc(u.loading)}</span></div>`;
+    }
+    function showError() {
+      root.innerHTML = `<div class="text-center py-8">
+        <p class="text-sm mb-3" style="color: var(--text-secondary);">${esc(u.error)}</p>
+        <button type="button" id="weather-retry" class="btn-base" style="background: var(--color-ocean-600, #0369a1); color:#fff; padding:.55rem 1.2rem; border-radius:.6rem; font-weight:600;">${esc(u.retry)}</button>
+      </div>`;
+      document.getElementById('weather-retry')?.addEventListener('click', load);
+    }
+
+    function setupTabs() {
+      const btnEls = Array.from(root.querySelectorAll<HTMLElement>('.weather-tab'));
+      const panelEls = Array.from(root.querySelectorAll<HTMLElement>('.weather-panel'));
+      if (!btnEls.length) return;
+      panelEls.forEach((p, i) => { p.style.display = i === 0 ? 'block' : 'none'; });
+      btnEls.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const key = btn.dataset.key;
+          btnEls.forEach((b) => {
+            const active = b.dataset.key === key;
+            b.style.background = active ? 'var(--color-ocean-600, #0369a1)' : 'var(--card-bg)';
+            b.style.color = active ? '#fff' : 'var(--text-secondary)';
+            b.style.border = active ? '1px solid var(--color-ocean-600, #0369a1)' : '1px solid var(--border-color)';
+          });
+          panelEls.forEach((p) => { p.style.display = p.dataset.key === key ? 'block' : 'none'; });
+        });
+      });
+    }
+
+    async function load() {
+      try {
+        const data = await fetchWeather(lat, lng);
+        if (!data) { if (!seeded) showError(); return; }
+        root.innerHTML = renderWeatherHtml(data.today, data.daily, lang, data.tides ?? []);
+        setupTabs();
+      } catch (e) {
+        if (!seeded) showError();
+      }
+    }
+
+    if (!seeded) showLoading();
+    load();
+  }
+</script>

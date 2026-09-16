@@ -12,10 +12,14 @@ import Transport from '../../components/Transport.astro';
 import NearbyPlaces from '../../components/NearbyPlaces.astro';
 import FoodCulture from '../../components/FoodCulture.astro';
 import BestTime from '../../components/BestTime.astro';
+import SeasonalGuide from '../../components/SeasonalGuide.astro';
+import Itineraries from '../../components/Itineraries.astro';
+import Responsibility from '../../components/Responsibility.astro';
 import Gallery from '../../components/Gallery.astro';
 import Reviews from '../../components/Reviews.astro';
 import FAQ from '../../components/FAQ.astro';
 import MapSection from '../../components/MapSection.astro';
+import Weather from '../../components/Weather.astro';
 import { getI18n, languagesList } from '../../i18n/ui';
 import { poi } from '../../data/poi';
 
@@ -64,6 +68,7 @@ const amenityLd = {
   <script slot="head" type="application/ld+json" is:inline set:html={JSON.stringify(amenityLd)}></script>
   <Hero />
   <QuickInfo />
+  <Weather />
   <About />
   <History />
   <Ecology />
@@ -74,6 +79,9 @@ const amenityLd = {
   <NearbyPlaces />
   <FoodCulture />
   <BestTime />
+  <SeasonalGuide />
+  <Itineraries />
+  <Responsibility />
   <Gallery />
   <Reviews />
   <FAQ />

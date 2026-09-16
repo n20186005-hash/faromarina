@@ -73,11 +73,18 @@ const embedSrc = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3185.755
       ))}
     </ul>
 
-    <div class="mt-4">
+    <div class="mt-4 flex flex-wrap items-center gap-3">
       <a href={mapsUrl} target="_blank" rel="noopener" class="btn-base" style="display:inline-flex; align-items:center; gap:.4rem; background: var(--color-ocean-600, #0369a1); color:#fff; padding:.6rem 1.1rem; border-radius:.6rem; font-weight:600;">
         🗺️ {m?.ctaOpen ?? 'Open in Google Maps'} ↗
       </a>
     </div>
+
+    <p class="mt-3 text-sm" style="color: var(--text-secondary);">
+      {m?.officialTourism ?? 'For official regional tourism information, visit'}{' '}
+      <a href={poi.govtTourismUrl} target="_blank" rel="noopener noreferrer" style="color: var(--color-ocean-600, #0369a1); text-decoration: underline;">
+        {m?.officialTourismLink ?? 'Turismo de Portugal'} ↗
+      </a>
+    </p>
   </div>
 </div>
 

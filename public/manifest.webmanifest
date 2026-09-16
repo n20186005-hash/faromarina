@@ -1,0 +1,26 @@
+{
+  "name": "Faro Marina Guide",
+  "short_name": "Faro Marina",
+  "description": "Visitor guide to Faro Marina (Doca de Faro) in Faro, Algarve, Portugal — weather, tips and travel info.",
+  "start_url": "/pt",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0369a1",
+  "lang": "pt",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

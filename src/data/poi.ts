@@ -13,13 +13,17 @@ export const poi = {
   countryCode: 'PT',
 
   rating: 4.4,
-  reviews: 5181,
+  reviews: 5258,
+  reviewSync: '2026-09',
 
   lat: 37.0154,
   lng: -7.9347,
 
   // Official Google Maps short link for Faro Marina.
   mapsUrl: 'https://maps.app.goo.gl/XPFdhSB6k3LhYxe8A',
+
+  // Official regional tourism portal (E-E-A-T outbound link).
+  govtTourismUrl: 'https://www.visitportugal.com',
 
   opening: { pt: 'Aberto 24 horas', en: 'Open 24 hours', zh: '全天开放' },
   category: { pt: 'Frente Marítima', en: 'Waterfront', zh: '海滨' },

@@ -34,6 +34,8 @@
     "intro": "This map marks public facility types and locations around Faro Marina (restrooms, public car parks, EV charging, transit hubs). Click a category to filter — it shows only facility info, with no business links.",
     "all": "All",
     "ctaOpen": "Open in Google Maps",
+    "officialTourism": "For official regional tourism information, visit",
+    "officialTourismLink": "Turismo de Portugal",
     "categories": [
       { "id": "wc", "label": "Restrooms", "icon": "🚻" },
       { "id": "parking", "label": "Car Parks", "icon": "🅿️" },
@@ -214,22 +216,57 @@
   },
   "transport": {
     "title": "How To Get There",
-    "intro": "Faro Marina is in the city center, a short walk from the train station and the bus terminal.",
-    "byAir": {
-      "title": "By Plane",
-      "body": "Faro Airport (FAO) lies about 10 km west of the marina. From arrivals you can take the Próximo city bus line 16 (~20 min) to the Terminal Rodoviário, then a 3-minute walk to the marina; taxis and rideshare take roughly 15 minutes, and car-rental desks are available on site.",
-      "options": ["Taxi", "Bus", "Car Rental"],
-      "distance": "About 10 km"
-    },
-    "byTrain": {
-      "title": "By Train",
-      "body": "Faro railway station (Estação de Faro) is within walking distance: exit and follow Av. da República southeast for about 500 m (6–8 min) to reach the marina. The Terminal Rodoviário (central bus station) sits directly opposite the marina entrance, a walk of under 3 minutes. Próximo city buses stop at Praça Dom Francisco Gomes / Terminal Rodoviário."
-    },
-    "byCar": {
-      "title": "By Car",
-      "body": "Navigate to Praça Dom Francisco Gomes, 8000-168 Faro. The marina is well signed from the A22 / IC4. Several public parking areas and a limited drop-off zone sit within a few minutes' walk of the waterfront.",
-      "cta": "Open Route in Maps"
-    }
+    "intro": "Faro Marina sits in the city centre, a short walk from the train station and the main bus terminal. Here are the practical ways to reach it.",
+    "modes": [
+      {
+        "icon": "✈️",
+        "title": "By Air — Faro Airport (FAO)",
+        "body": "Faro Airport is about 7–10 km west of the marina. From arrivals you can take the city bus (Próximo line 16) to the Terminal Rodoviário in roughly 25–35 minutes; taxis and app-based rideshares take around 15 minutes. All major car-rental companies have desks at the airport.",
+        "tips": [
+          "City bus line 16: pay on board for a few euros; frequency drops in the evening and at weekends.",
+          "Taxi or rideshare to the centre: typically €10–18, depending on time of day and luggage.",
+          "Rental cars: compare the desks at the airport and book ahead in summer."
+        ]
+      },
+      {
+        "icon": "🚌",
+        "title": "Public Transport — Bus, Train & Coach",
+        "body": "Faro's urban buses (Próximo) link the airport, station, beach and suburbs; buy a ticket on board. The railway station is a key stop on the Algarve line, with regional trains to Lagos and Vila Real de Santo António and fast services to Lisbon. The Terminal Rodoviário offers national and international coach connections.",
+        "tips": [
+          "Urban bus fare: around €1.80–2.00; a reloadable card is cheaper for several trips.",
+          "Train to Lisbon: Alfa Pendular in about 3 hours — book early for the best fare.",
+          "Coaches: long-distance and cross-border services leave from the Terminal Rodoviário, opposite the marina."
+        ]
+      },
+      {
+        "icon": "🚕",
+        "title": "Taxi & Rideshare",
+        "body": "Taxi ranks sit at the airport, the train station and near the marina entrance. App-based rideshares also operate in Faro and are usually priced similarly. Both are convenient with luggage or for late arrivals.",
+        "tips": [
+          "Use the marked ranks or the official apps; for taxis, confirm a rough fare if no meter is shown.",
+          "From the station to the marina it is a very short ride — walking is often quicker."
+        ]
+      },
+      {
+        "icon": "🚗",
+        "title": "By Car & Parking",
+        "body": "Navigate to Praça Dom Francisco Gomes, 8000-168 Faro. The marina is well signed from the A22 / IC4. From Lisbon take the A2 then the A22 (about 2.5–3 hours); from Spain follow the A22 / AP-7. Several public parking areas and a short-stay drop-off zone are within a few minutes' walk.",
+        "tips": [
+          "Blue Zone time-limited parking by the marina; open-air car parks and an underground car park near the Old Town for longer stays.",
+          "In peak season spaces fill up — arrive early or use public transport."
+        ]
+      },
+      {
+        "icon": "🚶",
+        "title": "On Foot from the Station",
+        "body": "Faro railway station and the Terminal Rodoviário are both within walking distance. Exit the station and follow Av. da República southeast for about 500 m (6–8 minutes) to reach the marina; the bus terminal is directly opposite the marina entrance, a walk of under 3 minutes.",
+        "tips": [
+          "The route is flat and step-free — an easy stroll along the avenue.",
+          "Wheeled luggage is fine; cobbled streets begin only inside the Old Town."
+        ]
+      }
+    ],
+    "cta": "Open Route in Maps"
   },
   "nearby": {
     "title": "Nearby Attractions",
@@ -272,7 +309,13 @@
     "likesTitle": "Visitors usually like",
     "tipsTitle": "Visitor tips",
     "likes": ["Sea views", "Close to the old town", "Good for walking"],
-    "tips": ["Strong sun in summer", "Busier in the afternoon"]
+    "tips": ["Strong sun in summer", "Busier in the afternoon"],
+    "sourcePrefix": "Rating and review count synced from Google Maps user reviews · Sep 2026 · ",
+    "sourceLinkLabel": "View all reviews on Google Maps",
+    "sourceStatement": "Synced from Google Maps user reviews, sync time Sep 2026; copyright belongs to the original authors and Google Maps.",
+    "sourceButton": "View all reviews on Google Maps",
+    "sourcesTitle": "Sources",
+    "sourcesReview": "Reviews · synced Sep 2026"
   },
   "faq": {
     "title": "Frequently Asked Questions",
@@ -283,7 +326,8 @@
       { "q": "How to get from the airport?", "a": "You can take a taxi, bus or rental car from Faro Airport (FAO), about 10 km away." },
       { "q": "Is parking easy near the Marina?", "a": "There is a Blue Zone time-limited area by the marina, open-air car parks and an underground car park near the Old Town. In peak season spaces fill up — arrive early or use public transport." },
       { "q": "Do public restrooms charge a fee?", "a": "Some public restrooms may require small coins (0.50–1.00 EUR) or a scan-to-pay code. Carry change; all public areas have step-free access." },
-      { "q": "Are there EV charging points nearby?", "a": "Yes, on the public MOBI.E network, in the outer marina car parks and along main roads, with 11/22 kW AC and rapid charging, payable by card or app." }
+      { "q": "Are there EV charging points nearby?", "a": "Yes, on the public MOBI.E network, in the outer marina car parks and along main roads, with 11/22 kW AC and rapid charging, payable by card or app." },
+      { "q": "What public facilities are near the Marina?", "a": "Public restrooms, car parks (Blue Zone and underground), EV charging on the MOBI.E network and transit hubs are all within a short walk — see the map section for exact spots." }
     ]
   },
   "footer": {
@@ -295,5 +339,124 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookie": "Cookie Settings"
+  },
+  "seasonal": {
+    "title": "Seasonal Travel Strategy",
+    "intro": "A quarter-by-quarter guide to Faro Marina and the Ria Formosa — combining typical weather, sea conditions and wildlife so you can plan around nature, not just the calendar.",
+    "columns": {
+      "season": "Season",
+      "weather": "Weather & Sea",
+      "water": "Water & Swimming",
+      "wildlife": "Wildlife Highlights"
+    },
+    "rows": [
+      {
+        "season": "Spring (Mar–May)",
+        "weather": "Mild 16–22°C, light rain easing, gentle breezes — the most comfortable walking season.",
+        "water": "Sea 16–18°C and mostly calm; island ferries run regularly.",
+        "wildlife": "Peak of flamingos and migratory birds; wildflowers along the lagoon edge."
+      },
+      {
+        "season": "Summer (Jun–Aug)",
+        "weather": "Hot 28–35°C, almost no rain, very strong UV at midday — plan outdoor time for morning and evening.",
+        "water": "Sea 20–24°C, warmest and busiest; lifeguards on the ocean beaches only.",
+        "wildlife": "Fewer migratory birds, but juvenile fish and sea turtles are active; boat trips are at their best."
+      },
+      {
+        "season": "Autumn (Sep–Oct)",
+        "weather": "Warm 22–28°C, sea still warm, far fewer crowds — many consider this the ideal window.",
+        "water": "Sea ~22°C; calm, clear water good for swimming and photography.",
+        "wildlife": "Birds begin returning; soft light and peaceful lagoons."
+      },
+      {
+        "season": "Winter (Nov–Feb)",
+        "weather": "Mild 12–18°C but wetter, with the occasional Atlantic storm and dramatic skies.",
+        "water": "Sea 15–17°C — cool, for the hardy; some ferry services are reduced.",
+        "wildlife": "Wintering flamingos and waders fill the lagoon; the quietest, cheapest season for the city."
+      }
+    ]
+  },
+  "itineraries": {
+    "title": "Recommended Itineraries",
+    "intro": "Pick a route that matches your group and pace. All start at Faro Marina.",
+    "audienceTitle": "Choose by traveller type",
+    "audiences": [
+      {
+        "icon": "👨‍👩‍👧",
+        "title": "Families with children",
+        "body": "Short, flat and low-stress: waterfront views, a playground, a gentle boat ride and time for ice cream — without long hikes.",
+        "steps": [
+          "Seaside walk along the marina promenade",
+          "Play and rest at Jardim Manuel Bivar",
+          "Short boat trip to the nearest barrier-island beach",
+          "Ice cream and an early dinner before the afternoon heat"
+        ]
+      },
+      {
+        "icon": "📷",
+        "title": "Photography & nature",
+        "body": "Built around light and wildlife: sunrise and sunset at the water, a lagoon boat trip, and the textures of the old town.",
+        "steps": [
+          "Sunrise over the Ria Formosa from the marina",
+          "Boat trip into the lagoon for flamingos and seabirds",
+          "Old-town alleys, Arco da Vila and the cathedral",
+          "Causeway or ferry to Ilha Deserta / Barreta for open horizons"
+        ]
+      },
+      {
+        "icon": "♿",
+        "title": "Low-effort / accessible",
+        "body": "Mostly step-free and unhurried: a waterside café, benches, and a short taxi or boat hop, skipping long island walks.",
+        "steps": [
+          "Flat promenade walk with frequent benches",
+          "Coffee with a harbour view",
+          "Short taxi or adapted boat to an accessible beach",
+          "Leisurely return through the Old Town"
+        ]
+      }
+    ],
+    "routesTitle": "General routes",
+    "routes": [
+      {
+        "icon": "🌅",
+        "title": "Half-day (2–3 h)",
+        "body": "A compact loop of the waterfront and the historic centre.",
+        "items": [
+          "Faro Marina and Praça Dom Francisco Gomes",
+          "Arco da Vila and the Old Town",
+          "Faro Cathedral and a café stop",
+          "Back along the waterfront"
+        ]
+      },
+      {
+        "icon": "🗺️",
+        "title": "Full-day (5–6 h)",
+        "body": "The half-day loop plus a lagoon island experience.",
+        "items": [
+          "Morning: marina, Old Town and cathedral",
+          "Midday: lunch by the water",
+          "Afternoon: boat trip to Ilha Deserta, Barreta or Culatra",
+          "Late: beach or picnic, then sunset on the way back"
+        ]
+      }
+    ]
+  },
+  "responsibility": {
+    "title": "Science & Visitor Responsibility",
+    "intro": "Faro Marina is the land gateway to the Ria Formosa Natural Park. A little awareness goes a long way in keeping it healthy.",
+    "scienceTitle": "Why the lagoon matters",
+    "science": [
+      { "emoji": "🌊", "title": "A nursery of the Atlantic", "text": "The lagoon's seagrass meadows and salt marshes are a breeding ground for fish and the protected long-snouted seahorse." },
+      { "emoji": "🦩", "title": "A stopover for 20,000+ birds", "text": "Twice a year, tens of thousands of waterbirds rest and feed here, including flamingos and the purple swamphen, the park's emblem." },
+      { "emoji": "🛡️", "title": "A protected coastline", "text": "Created in 1987 and voted among Portugal's natural wonders, the barrier islands shield Faro from storms and erosion." }
+    ],
+    "dutyTitle": "How visitors help protect it",
+    "duty": [
+      "Take all litter with you — bins are limited on the water and the islands.",
+      "Keep your distance from birds and never feed wildlife.",
+      "Use reef-safe sunscreen and avoid stepping on seagrass beds.",
+      "Choose licensed, low-impact boat tours that follow the park's rules.",
+      "Respect seasonal no-entry zones that protect nesting and spawning."
+    ]
   }
 }

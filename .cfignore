@@ -1,0 +1,22 @@
+# Dependencies — never upload to Cloudflare Workers
+node_modules/
+
+# Source & build cache — not needed at runtime
+src/
+.astro/
+.dev/
+
+# Logs, env & OS files
+*.log
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Lockfiles & tooling config
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+tsconfig.json
