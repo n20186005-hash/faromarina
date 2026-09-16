@@ -331,8 +331,9 @@
     ]
   },
   "footer": {
-    "siteName": "Faro Marina Guide",
-    "description": "A multilingual information guide to Faro Marina.",
+  "siteName": "Faro Marina Guide",
+  "authorityTitle": "Official Tourism",
+  "description": "A multilingual information guide to Faro Marina.",
     "disclaimer": "This is an independent, non-profit visitor information project, not affiliated with any government agency or official organisation. Attraction information is verified against public sources from Câmara Municipal de Faro, Turismo do Algarve and Turismo de Portugal, with no commercial endorsement.",
     "copyright": "© 2026 Faro Marina Guide. All rights reserved.",
     "legalTitle": "Legal",

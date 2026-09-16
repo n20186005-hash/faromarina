@@ -331,8 +331,9 @@
     ]
   },
   "footer": {
-    "siteName": "Faro Marina Guide",
-    "description": "Guia de informação multilíngue sobre a Marina de Faro.",
+  "siteName": "Faro Marina Guide",
+  "authorityTitle": "Turismo Oficial",
+  "description": "Guia de informação multilíngue sobre a Marina de Faro.",
     "disclaimer": "Este é um projeto independente de informação aos visitantes, sem fins lucrativos, não afiliado a qualquer órgão governamental ou organização oficial. A informação sobre o local é verificada com base em fontes públicas da Câmara Municipal de Faro, do Turismo do Algarve e do Turismo de Portugal, sem qualquer recomendação comercial.",
     "copyright": "© 2026 Faro Marina Guide. Todos os direitos reservados.",
     "legalTitle": "Legal",
