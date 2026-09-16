@@ -9,10 +9,10 @@ export function getStaticPaths() {
 }
 
 const { lang } = Astro.params;
-const doc = legal[lang].cookie;
+const doc = (legal[lang] ?? legal.en).cookie;
 const messages = (await import(`../../i18n/${lang}.json`)).default;
 ---
 
-<BaseLayout title={`${doc.title} · ${messages.footer.siteName}`} description={doc.title} path="cookie-settings" lang={lang}>
+<BaseLayout title={`${doc.title} · ${messages.footer.siteName}`} description={doc.title} path="cookie-settings">
   <LegalPage doc={doc} />
 </BaseLayout>

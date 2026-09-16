@@ -284,4 +284,364 @@ export const legal: Record<string, Record<LegalKey, LegalDoc>> = {
       buttons: ['Guardar Preferências', 'Rejeitar Tudo'],
     },
   },
+  de: {
+    privacy: {
+      title: 'Datenschutzerklärung',
+      updated: 'Zuletzt aktualisiert: Juli 2026',
+      sections: [
+        {
+          heading: 'Informationen, die wir erheben',
+          paragraphs: ['Wir erheben nur die für die Bereitstellung unseres Dienstes erforderlichen Mindestdaten. Dies kann Folgendes umfassen:'],
+          list: [
+            'Navigationsdaten (IP-Adresse, Browsertyp, besuchte Seiten)',
+            'Cookies und ähnliche Technologien',
+            'Alle Informationen, die Sie über unser Kontaktformular oder per E-Mail freiwillig bereitstellen',
+          ],
+        },
+        {
+          heading: 'Wie wir Ihre Informationen verwenden',
+          paragraphs: ['Wir verwenden die erhobenen Informationen, um:'],
+          list: ['Den Inhalt der Website und die Benutzererfahrung zu verbessern', 'Den Datenverkehr und Nutzungsmuster zu analysieren', 'Auf Anfragen zu antworten', 'Unseren gesetzlichen Verpflichtungen nachzukommen'],
+        },
+        {
+          heading: 'Drittanbieter-Dienste',
+          paragraphs: [
+            'Unsere Website kann Drittanbieter-Dienste wie Google Maps (für eingebettete Karten und Standortdaten), Google Analytics (für Traffic-Analysen) und Unsplash (für Bilder) nutzen. Diese Dienste haben eigene Datenschutzerklärungen.',
+          ],
+        },
+        {
+          heading: 'Ihre Rechte',
+          paragraphs: ['Gemäß der Datenschutz-Grundverordnung (DSGVO) und verwandten Gesetzen haben Sie das Recht auf:'],
+          list: ['Zugriff auf Ihre personenbezogenen Daten', 'Berichtigung oder Löschung verlangen', 'Der Verarbeitung widersprechen oder sie einschränken', 'Beschwerde bei einer Aufsichtsbehörde einreichen'],
+        },
+      ],
+    },
+    terms: {
+      title: 'Nutzungsbedingungen',
+      updated: 'Zuletzt aktualisiert: Juli 2026',
+      sections: [
+        {
+          heading: 'Nutzung der Inhalte',
+          paragraphs: [
+            'Alle Inhalte auf dieser Website dienen ausschließlich Informationszwecken. Wir sind eine unabhängige Reiseinformations-Website von Drittanbietern und nicht mit einer Touristenattraktion, Regierungsbehörde oder einem kommerziellen Betreiber verbunden.',
+          ],
+        },
+        {
+          heading: 'Richtigkeit der Informationen',
+          paragraphs: [
+            'Wir bemühen uns, genaue und aktuelle Informationen bereitzustellen, können jedoch Vollständigkeit oder Richtigkeit nicht garantieren. Reisepläne, Bedingungen und Dienstleistungen können sich ohne vorherige Ankündigung ändern. Bitte verifizieren Sie wichtige Informationen vor der Reise stets über offizielle Kanäle.',
+          ],
+        },
+        {
+          heading: 'Geistiges Eigentum',
+          paragraphs: [
+            'Das Design und die Originalinhalte dieser Website sind urheberrechtlich geschützt. Die Bilder stammen von Unsplash und werden unter Lizenz verwendet. Die Nutzung von Google Maps-Daten erfolgt gemäß den Nutzungsbedingungen von Google.',
+          ],
+        },
+        {
+          heading: 'Haftungsbeschränkung',
+          paragraphs: [
+            'Diese Website wird „wie besehen" ohne jegliche Gewährleistung bereitgestellt. Wir übernehmen keine Haftung für Verluste, die aus der Nutzung der Informationen auf dieser Website entstehen, einschließlich, aber nicht beschränkt auf Reiseentscheidungen, die auf deren Inhalten basieren.',
+          ],
+        },
+      ],
+    },
+    cookie: {
+      title: 'Cookie-Einstellungen',
+      updated: 'Zuletzt aktualisiert: Juli 2026',
+      sections: [
+        {
+          heading: 'Notwendige Cookies',
+          paragraphs: ['Diese Cookies sind für das Funktionieren der Website unerlässlich und können nicht deaktiviert werden.'],
+        },
+        {
+          heading: 'Analyse-Cookies',
+          paragraphs: ['Google Analytics (kann manuell aktiviert/deaktiviert werden)', 'Durch die Erfassung anonymisierter Nutzungsdaten helfen sie uns zu verstehen, wie Besucher mit unserer Website interagieren.'],
+        },
+        {
+          heading: 'Präferenz-Cookies',
+          paragraphs: ['Benutzereinstellungen (können manuell aktiviert/deaktiviert werden)', 'Speichern Ihre individuellen Einstellungen (z. B. Sprach- und Designpräferenzen).'],
+        },
+        {
+          heading: 'Marketing-Cookies',
+          paragraphs: ['Personalisierte Werbung (standardmäßig deaktiviert)', 'Werden verwendet, um relevante Inhalte anzuzeigen und die Wirksamkeit von Werbekampagnen zu messen.'],
+        },
+        {
+          heading: 'Einwilligungsverwaltung',
+          paragraphs: ['Sie können Ihre Cookie-Einstellungen jederzeit ändern. Bitte beachten Sie, dass das Deaktivieren bestimmter Cookies einige Funktionen der Website beeinträchtigen kann.'],
+        },
+      ],
+      buttons: ['Einstellungen speichern', 'Alle ablehnen'],
+    },
+  },
+  es: {
+    privacy: {
+      title: 'Política de Privacidad',
+      updated: 'Última actualización: julio de 2026',
+      sections: [
+        {
+          heading: 'Información que recopilamos',
+          paragraphs: ['Recopilamos únicamente los datos mínimos necesarios para prestar nuestro servicio. Esto puede incluir:'],
+          list: [
+            'Datos de navegación (dirección IP, tipo de navegador, páginas visitadas)',
+            'Cookies y tecnologías similares',
+            'Cualquier información que proporcione voluntariamente a través de nuestro formulario de contacto o correo electrónico',
+          ],
+        },
+        {
+          heading: 'Cómo utilizamos su información',
+          paragraphs: ['Utilizamos la información recopilada para:'],
+          list: ['Mejorar el contenido del sitio y la experiencia del usuario', 'Analizar el tráfico y los patrones de uso', 'Responder a las solicitudes', 'Cumplir con nuestras obligaciones legales'],
+        },
+        {
+          heading: 'Servicios de terceros',
+          paragraphs: [
+            'Nuestro sitio web puede utilizar servicios de terceros como Google Maps (para mapas integrados y datos de ubicación), Google Analytics (para análisis de tráfico) y Unsplash (para imágenes). Estos servicios tienen sus propias políticas de privacidad.',
+          ],
+        },
+        {
+          heading: 'Sus derechos',
+          paragraphs: ['Según el Reglamento General de Protección de Datos (RGPD) y leyes relacionadas, tiene derecho a:'],
+          list: ['Acceder a sus datos personales', 'Solicitar corrección o eliminación', 'Oponerse al tratamiento o limitarlo', 'Presentar una reclamación ante una autoridad de control'],
+        },
+      ],
+    },
+    terms: {
+      title: 'Términos del Servicio',
+      updated: 'Última actualización: julio de 2026',
+      sections: [
+        {
+          heading: 'Uso del contenido',
+          paragraphs: [
+            'Todo el contenido de este sitio web se proporciona únicamente con fines informativos. Somos un sitio web independiente de información de viajes y no estamos afiliados a ninguna atracción turística, agencia gubernamental u operador comercial.',
+          ],
+        },
+        {
+          heading: 'Exactitud de la información',
+          paragraphs: [
+            'Nos esforzamos por proporcionar información precisa y actualizada, pero no podemos garantizar su integridad o exactitud. Los itinerarios, las condiciones y los servicios están sujetos a cambios sin previo aviso. Verifique siempre la información importante a través de canales oficiales antes de viajar.',
+          ],
+        },
+        {
+          heading: 'Propiedad intelectual',
+          paragraphs: [
+            'El diseño y el contenido original de este sitio web están protegidos por derechos de autor. Las imágenes provienen de Unsplash y se utilizan bajo licencia. El uso de datos de Google Maps cumple los Términos de Servicio de Google.',
+          ],
+        },
+        {
+          heading: 'Limitación de responsabilidad',
+          paragraphs: [
+            'Este sitio web se proporciona "tal cual", sin ningún tipo de garantía. No nos hacemos responsables de ninguna pérdida derivada del uso de la información de este sitio web, incluidas, entre otras, las decisiones de viaje basadas en su contenido.',
+          ],
+        },
+      ],
+    },
+    cookie: {
+      title: 'Configuración de Cookies',
+      updated: 'Última actualización: julio de 2026',
+      sections: [
+        {
+          heading: 'Cookies necesarias',
+          paragraphs: ['Estas cookies son esenciales para el funcionamiento del sitio web y no se pueden desactivar.'],
+        },
+        {
+          heading: 'Cookies de análisis',
+          paragraphs: ['Google Analytics (se puede activar/desactivar manualmente)', 'Al recopilar datos de uso anónimos, nos ayudan a comprender cómo interactúan los visitantes con nuestro sitio web.'],
+        },
+        {
+          heading: 'Cookies de preferencias',
+          paragraphs: ['Preferencias del usuario (se pueden activar/desactivar manualmente)', 'Recuerdan sus ajustes personalizados (como el idioma y el tema).'],
+        },
+        {
+          heading: 'Cookies de marketing',
+          paragraphs: ['Publicidad personalizada (desactivada por defecto)', 'Se utilizan para mostrar contenido relevante y medir la efectividad de las campañas publicitarias.'],
+        },
+        {
+          heading: 'Gestión del consentimiento',
+          paragraphs: ['Puede cambiar su configuración de cookies en cualquier momento. Tenga en cuenta que desactivar ciertas cookies puede afectar a algunas funciones del sitio web.'],
+        },
+      ],
+      buttons: ['Guardar preferencias', 'Rechazar todo'],
+    },
+  },
+  fr: {
+    privacy: {
+      title: 'Politique de Confidentialité',
+      updated: 'Dernière mise à jour : juillet 2026',
+      sections: [
+        {
+          heading: 'Informations que nous recueillons',
+          paragraphs: ['Nous ne recueillons que les données minimales nécessaires à la fourniture de notre service. Celles-ci peuvent inclure :'],
+          list: [
+            'Données de navigation (adresse IP, type de navigateur, pages visitées)',
+            'Cookies et technologies similaires',
+            'Toute information que vous fournissez volontairement via notre formulaire de contact ou par e-mail',
+          ],
+        },
+        {
+          heading: 'Comment nous utilisons vos informations',
+          paragraphs: ['Nous utilisons les informations recueillies pour :'],
+          list: ['Améliorer le contenu du site et l’expérience utilisateur', 'Analyser le trafic et les modes d’utilisation', 'Répondre aux demandes', 'Nous conformer à nos obligations légales'],
+        },
+        {
+          heading: 'Services tiers',
+          paragraphs: [
+            'Notre site web peut utiliser des services tiers tels que Google Maps (pour les cartes intégrées et les données de localisation), Google Analytics (pour l’analyse du trafic) et Unsplash (pour les images). Ces services ont leurs propres politiques de confidentialité.',
+          ],
+        },
+        {
+          heading: 'Vos droits',
+          paragraphs: ['Conformément au Règlement Général sur la Protection des Données (RGPD) et aux lois connexes, vous avez le droit de :'],
+          list: ['Accéder à vos données personnelles', 'Demander la correction ou la suppression', 'Vous opposer au traitement ou le limiter', 'Déposer une plainte auprès d’une autorité de contrôle'],
+        },
+      ],
+    },
+    terms: {
+      title: 'Conditions d’Utilisation',
+      updated: 'Dernière mise à jour : juillet 2026',
+      sections: [
+        {
+          heading: 'Utilisation du contenu',
+          paragraphs: [
+            'Tout le contenu de ce site web est fourni à des fins purement informatives. Nous sommes un site d’information touristique indépendant, sans lien avec aucune attraction touristique, organisme gouvernemental ou opérateur commercial.',
+          ],
+        },
+        {
+          heading: 'Exactitude des informations',
+          paragraphs: [
+            'Nous nous efforçons de fournir des informations exactes et à jour, mais ne pouvons garantir leur intégralité ou leur exactitude. Itinéraires, conditions et services peuvent changer sans préavis. Vérifiez toujours les informations importantes via les canaux officiels avant de voyager.',
+          ],
+        },
+        {
+          heading: 'Propriété intellectuelle',
+          paragraphs: [
+            'La conception et le contenu original de ce site web sont protégés par le droit d’auteur. Les images proviennent d’Unsplash et sont utilisées sous licence. L’utilisation des données Google Maps respecte les Conditions d’utilisation de Google.',
+          ],
+        },
+        {
+          heading: 'Limitation de responsabilité',
+          paragraphs: [
+            'Ce site web est fourni « en l’état », sans aucune garantie. Nous ne sommes pas responsables de toute perte découlant de l’utilisation des informations de ce site, y compris, sans s’y limiter, des décisions de voyage fondées sur son contenu.',
+          ],
+        },
+      ],
+    },
+    cookie: {
+      title: 'Paramètres des Cookies',
+      updated: 'Dernière mise à jour : juillet 2026',
+      sections: [
+        {
+          heading: 'Cookies nécessaires',
+          paragraphs: ['Ces cookies sont essentiels au fonctionnement du site et ne peuvent pas être désactivés.'],
+        },
+        {
+          heading: 'Cookies d’analyse',
+          paragraphs: ['Google Analytics (peut être activé/désactivé manuellement)', 'En collectant des données d’utilisation anonymes, ils nous aident à comprendre comment les visiteurs interagissent avec notre site.'],
+        },
+        {
+          heading: 'Cookies de préférences',
+          paragraphs: ['Préférences utilisateur (peuvent être activées/désactivées manuellement)', 'Mémorisent vos paramètres personnalisés (comme la langue et le thème).'],
+        },
+        {
+          heading: 'Cookies marketing',
+          paragraphs: ['Publicité personnalisée (désactivée par défaut)', 'Utilisés pour afficher du contenu pertinent et mesurer l’efficacité des campagnes publicitaires.'],
+        },
+        {
+          heading: 'Gestion du consentement',
+          paragraphs: ['Vous pouvez modifier vos paramètres de cookies à tout moment. Notez que la désactivation de certains cookies peut affecter certaines fonctionnalités du site.'],
+        },
+      ],
+      buttons: ['Enregistrer les préférences', 'Tout refuser'],
+    },
+  },
+  nl: {
+    privacy: {
+      title: 'Privacybeleid',
+      updated: 'Laatst bijgewerkt: juli 2026',
+      sections: [
+        {
+          heading: 'Informatie die wij verzamelen',
+          paragraphs: ['Wij verzamelen alleen de minimale gegevens die nodig zijn om onze dienst te leveren. Dit kan het volgende omvatten:'],
+          list: [
+            'Navigatiegegevens (IP-adres, browsertype, bezochte pagina’s)',
+            'Cookies en vergelijkbare technologieën',
+            'Alle informatie die u vrijwillig verstrekt via ons contactformulier of e-mail',
+          ],
+        },
+        {
+          heading: 'Hoe wij uw gegevens gebruiken',
+          paragraphs: ['Wij gebruiken de verzamelde gegevens om:'],
+          list: ['De inhoud van de website en de gebruikerservaring te verbeteren', 'Verkeer en gebruikspatronen te analyseren', 'Op verzoeken te reageren', 'Te voldoen aan onze wettelijke verplichtingen'],
+        },
+        {
+          heading: 'Diensten van derden',
+          paragraphs: [
+            'Onze website kan gebruikmaken van diensten van derden zoals Google Maps (voor ingesloten kaarten en locatiegegevens), Google Analytics (voor verkeersanalyse) en Unsplash (voor afbeeldingen). Deze diensten hebben hun eigen privacybeleid.',
+          ],
+        },
+        {
+          heading: 'Uw rechten',
+          paragraphs: ['Op grond van de Algemene Verordening Gegevensbescherming (AVG) en aanverwante wetten heeft u het recht om:'],
+          list: ['Toegang te krijgen tot uw persoonsgegevens', 'Correctie of verwijdering te verzoeken', 'Bezwaar te maken tegen of de verwerking te beperken', 'Een klacht in te dienen bij een toezichthouder'],
+        },
+      ],
+    },
+    terms: {
+      title: 'Algemene Voorwaarden',
+      updated: 'Laatst bijgewerkt: juli 2026',
+      sections: [
+        {
+          heading: 'Gebruik van inhoud',
+          paragraphs: [
+            'Alle inhoud op deze website wordt uitsluitend ter informatie aangeboden. Wij zijn een onafhankelijke website met reisinformatie van derden en zijn niet verbonden aan enige toeristische attractie, overheidsinstantie of commerciële aanbieder.',
+          ],
+        },
+        {
+          heading: 'Juistheid van informatie',
+          paragraphs: [
+            'Wij streven ernaar nauwkeurige en actuele informatie te verstrekken, maar kunnen de volledigheid of juistheid niet garanderen. Reisroutes, omstandigheden en diensten kunnen zonder voorafgaande kennisgeving wijzigen. Controleer belangrijke informatie altijd via officiële kanalen voordat u reist.',
+          ],
+        },
+        {
+          heading: 'Intellectueel eigendom',
+          paragraphs: [
+            'Het ontwerp en de oorspronkelijke inhoud van deze website zijn auteursrechtelijk beschermd. De afbeeldingen komen van Unsplash en worden onder licentie gebruikt. Het gebruik van Google Maps-gegevens voldoet aan de Servicevoorwaarden van Google.',
+          ],
+        },
+        {
+          heading: 'Beperking van aansprakelijkheid',
+          paragraphs: [
+            'Deze website wordt "as is" aangeboden zonder enige garantie. Wij zijn niet aansprakelijk voor enig verlies voortvloeiend uit het gebruik van de informatie op deze website, waaronder, maar niet uitsluitend, reisbeslissingen op basis van de inhoud ervan.',
+          ],
+        },
+      ],
+    },
+    cookie: {
+      title: 'Cookie-instellingen',
+      updated: 'Laatst bijgewerkt: juli 2026',
+      sections: [
+        {
+          heading: 'Noodzakelijke cookies',
+          paragraphs: ['Deze cookies zijn essentieel voor het functioneren van de website en kunnen niet worden uitgeschakeld.'],
+        },
+        {
+          heading: 'Analytische cookies',
+          paragraphs: ['Google Analytics (kan handmatig worden in- of uitgeschakeld)', 'Door het verzamelen van anonieme gebruiksgegevens helpen ze ons te begrijpen hoe bezoekers met onze website omgaan.'],
+        },
+        {
+          heading: 'Voorkeurscookies',
+          paragraphs: ['Gebruikersvoorkeuren (kunnen handmatig worden in- of uitgeschakeld)', 'Onthouden uw persoonlijke instellingen (zoals taal- en themavoorkeuren).'],
+        },
+        {
+          heading: 'Marketingcookies',
+          paragraphs: ['Gepersonaliseerde advertenties (standaard uitgeschakeld)', 'Worden gebruikt om relevante inhoud te tonen en de effectiviteit van advertentiecampagnes te meten.'],
+        },
+        {
+          heading: 'Toestemmingsbeheer',
+          paragraphs: ['U kunt uw cookie-instellingen op elk moment wijzigen. Houd er rekening mee dat het uitschakelen van bepaalde cookies sommige functies van de website kan beïnvloeden.'],
+        },
+      ],
+      buttons: ['Voorkeuren opslaan', 'Alles weigeren'],
+    },
+  },
 };

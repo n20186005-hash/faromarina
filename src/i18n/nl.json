@@ -1,0 +1,463 @@
+{
+  "mapsUrl": "https://maps.app.goo.gl/XPFdhSB6k3LhYxe8A",
+  "meta": {
+    "title": "Faro Marina (Doca de Faro) | Bezoekersgids, parkeren & activiteiten",
+    "description": "Plan je bezoek aan Faro Marina (Doca de Faro) in de Algarve: parkeren, boottochten door de Ria Formosa, wandelingen door de oude stad, eetgelegenheden aan het water en reistips."
+  },
+  "common": {
+    "changeLanguage": "Taal",
+    "toggleTheme": "Thema",
+    "readMore": "Lees meer",
+    "faroAlgarve": "Faro · Algarve",
+    "info": "Info",
+    "faunaFlora": "Flora en fauna",
+    "timeline": "Tijdlijn"
+  },
+  "header": {
+    "siteName": "Faro Marina",
+    "tagline": "Doca de Faro",
+    "home": "Start",
+    "visit": "Bezoek",
+    "history": "Geschiedenis",
+    "ecology": "Natuur",
+    "legends": "Legendes",
+    "transport": "Bereikbaarheid",
+    "nearby": "Omgeving",
+    "food": "Gastronomie",
+    "gallery": "Galerij",
+    "reviews": "Beoordelingen",
+    "faq": "FAQ",
+    "map": "Kaart"
+  },
+  "map": {
+    "title": "Locatie & kaart van nabijgelegen voorzieningen",
+    "intro": "Deze kaart markeert de typen en locaties van openbare voorzieningen rond Faro Marina (toiletten, openbare parkeerplaatsen, EV-laadpalen, vervoersknooppunten). Klik op een categorie om te filteren: alleen voorzieningsinformatie wordt getoond, zonder commerciële links.",
+    "all": "Alle",
+    "ctaOpen": "Openen in Google Maps",
+    "officialTourism": "Voor officiële regionale toerisme-informatie, bezoek",
+    "officialTourismLink": "Turismo de Portugal",
+    "categories": [
+      { "id": "wc", "label": "Toiletten", "icon": "🚻" },
+      { "id": "parking", "label": "Parkeren", "icon": "🅿️" },
+      { "id": "ev", "label": "EV-laden", "icon": "🔌" },
+      { "id": "transit", "label": "Vervoersknooppunten", "icon": "🚉" }
+    ]
+  },
+  "hero": {
+    "title": "Faro Marina",
+    "subtitle": "De zeeboulevardpoort van Faro, in het hart van de Algarve.",
+    "ctaMaps": "Openen in Google Maps",
+    "quickFacts": [
+      { "icon": "⭐", "label": "Beoordeling", "value": "4,4 / 5" },
+      { "icon": "📍", "label": "Locatie", "value": "Faro, Portugal" },
+      { "icon": "🕒", "label": "Openingstijden", "value": "24 uur open" },
+      { "icon": "🏛", "label": "Type", "value": "Waterfront" }
+    ]
+  },
+  "quickInfo": {
+    "title": "Kort overzicht",
+    "rating": "Beoordeling",
+    "location": "Locatie",
+    "hours": "Openingstijden",
+    "category": "Categorie"
+  },
+  "about": {
+    "title": "Over Faro Marina",
+    "paragraphs": [
+      "Faro Marina is het havengebied in de historische oude stad van Faro, in de Algarve.",
+      "Het ligt naast de Praça Dom Francisco Gomes en verbindt de oude stad met de lagune van de Ria Formosa.",
+      "Het is een vertrekpunt voor boottochten en een rustige plek om langs het water te wandelen."
+    ],
+    "managedBy": "Beheerd door Docapesca – Portos e Lotas, S.A. (Portugese haven- en vismijnautoriteit) samen met de Câmara Municipal de Faro (gemeente Faro)."
+  },
+  "history": {
+    "title": "Geschiedenis & maritiem erfgoed",
+    "intro": "Van oude handelshaven tot zeeboulevardpoort van de Algarve.",
+    "historicalSignificance": "Een beschutte natuurlijke haven van Moorse oorsprong, die na de aardbeving van 1755 uitgroeide tot maritiem centrum van de Algarve en sinds 1756 regionaal hoofdstadgebied is.",
+    "paragraphs": [
+      "De geschiedenis van Faro Marina (Doca de Faro) gaat terug tot de Moorse tijd, toen Faro bekendstond als Santa Maria de Faaron. Als beschutte natuurlijke haven aan de zuidpunt van het Iberisch schiereiland was het een belangrijk handelsknooppunt voor zout, olijfolie, vijgen en gedroogde vis met de Middellandse Zee en Noord-Afrika.",
+      "De aardbeving van Lissabon in 1755 en de daaropvolgende tsunami verwoestten grote delen van de Algarve-kust. Dankzij de natuurlijke bescherming van de barrière-eilanden van de lagune van de Ria Formosa ondervonden de marina en de oude stad echter minder directe impact. In 1756 verving Faro de zwaar beschadigde Silves en Lagos als hoofdstad van de Algarve, en de marina werd het maritieme, politieke en economische centrum van de regio.",
+      "Tijdens de ontdekkingsreizen was de marina een tussenstop voor ontdekkingsreizigers en handelsschepen. Tegenwoordig meren hier vooral jachten en zeilboten aan, maar de watertopografie behoudt nog steeds het historische stratenplan uit de 18e eeuw."
+    ],
+    "timeline": [
+      { "year": "1249", "title": "Verovering van Faro", "text": "Koning Alfons III verovert Faro; de oude haven treedt toe tot het koninkrijk Portugal." },
+      { "year": "1755", "title": "Aardbeving van Lissabon", "text": "De tsunami treft de Algarve, maar de Ria Formosa beschermt Faro; de stad raakt minder beschadigd." },
+      { "year": "1756", "title": "Hoofdstad van de Algarve", "text": "Faro wordt de hoofdstad van de Algarve en verheft de marina tot een regionaal centrum." },
+      { "year": "1812", "title": "Arco da Vila", "text": "Bisschop D. Francisco Gomes leidt de bouw van de Arco da Vila en geeft zo vorm aan het plein." },
+      { "year": "1987", "title": "Natuurpark", "text": "Oprichting van het natuurpark Ria Formosa; de marina wordt een ecotoerismecentrum." }
+    ]
+  },
+  "ecology": {
+    "title": "Natuurschat: de lagune van de Ria Formosa",
+    "intro": "De landpoort naar het natuurpark Ria Formosa.",
+    "paragraphs": [
+      "Faro Marina is niet alleen een aanlegplaats voor mensen – het is de landpoort naar het natuurpark Ria Formosa. Het gebied werd in 1987 uitgeroepen tot natuurpark en werd verkozen tot een van de Zeven natuurwonderen van Portugal.",
+      "De lagune bestaat uit 5 barrière-eilanden en 2 schiereilanden. Twee dagelijkse getijden brengen rijke voedingsstoffen en creëren een uniek zoutmoeras-ecosysteem.",
+      "De wateren herbergen zeepaardjes (Hippocampus guttulatus en Hippocampus hippocampus), bedreigde soorten. De zeegrasvelden zijn een ideale kraamkamer voor hen.",
+      "Tijdens de voorjaars- en herfsttrek rusten hier meer dan 20.000 watervogels, waaronder flamingo's, de purperkoet (het symbool van het park) en lepelaars."
+    ],
+    "species": [
+      { "emoji": "🦩", "name": "Flamingo", "note": "Beste waarneming: nov – mrt" },
+      { "emoji": "🐴", "name": "Zeepaardje", "note": "Beschermde watersoort" },
+      { "emoji": "🌿", "name": "Zoutmoerasplanten", "note": "Intertidaal ecosysteem" },
+      { "emoji": "🐦", "name": "Trekvogels", "note": "Meer dan 20.000 vogels per jaar" }
+    ]
+  },
+  "legends": {
+    "title": "Legendes & architectuur",
+    "intro": "De verhalen en het ontwerp achter de plekken bij de marina.",
+    "items": [
+      { "emoji": "🏛️", "title": "De Arco da Vila en de verlichte bisschop", "text": "Vlakbij de marina is de Arco da Vila het meest representatieve neoclassicistische gebouw van Faro. Het werd in 1812 ontworpen door de Italiaanse architect Francisco Xavier Fabri op uitnodiging van de verlichte bisschop D. Francisco Gomes de Avelar. Een nis in de gevel herbergt de heilige Thomas van Aquino, de patroonheilige van Faro." },
+      { "emoji": "📜", "title": "De legende van de betoverde Moorse prinses", "text": "De legende vertelt dat op de vooravond van 1249 een Moorse prinses de familyschat verstopte in de putten en wateren bij de oude muren. In de nacht van Sint-Jan horen bezoekers die met de boot de marina bevaren soms de verre zang van de jonge Moorse vrouw diep uit het riet." }
+    ],
+    "audioTour": {
+      "title": "3-minuten audiogids",
+      "label": "Luister naar het verhaal van de Arco da Vila",
+      "note": "Binnenkort"
+    }
+  },
+  "thingsTodo": {
+    "title": "Wat te doen",
+    "intro": "Aanbevolen ervaringen bij de marina en de waterfront.",
+    "items": [
+      {
+        "title": "Wandelen langs het water",
+        "icon": "🚶",
+        "tags": ["Wandelen", "Ontspanning"],
+        "duration": "30–60 min",
+        "description": "Slenter langs de waterfront en geniet van het uitzicht op de Ria Formosa."
+      },
+      {
+        "title": "Zonsondergang bekijken",
+        "icon": "🌅",
+        "tags": ["Fotografie", "Stellen", "Ontspanning"],
+        "duration": "30 min",
+        "description": "De zonsondergang boven het water geeft prachtig licht om te fotograferen."
+      },
+      {
+        "title": "Ria Formosa verkennen",
+        "icon": "🚤",
+        "tags": ["Natuur", "Boottochten", "Wildlife"],
+        "duration": "2–4 uur",
+        "description": "Sluit je aan bij boottochten door de lagune en observeer de lokale natuur."
+      },
+      {
+        "title": "Wandel door de oude stad",
+        "icon": "🏛",
+        "tags": ["Geschiedenis", "Cultuur"],
+        "duration": "45 min",
+        "description": "Volg de wandelroute van de marina naar de oude stad van Faro."
+      }
+    ],
+    "oldTownRoute": {
+      "title": "Wandelroute: Marina → Oude stad",
+      "steps": ["Faro Marina", "Praça Dom Francisco Gomes", "Arco da Vila", "Kathedraal van Faro", "Oude stad"]
+    }
+  },
+  "practical": {
+    "title": "Praktische informatie & openbare voorzieningen",
+    "intro": "Een gids voor diensten en voorzieningen rond Faro Marina, neutraal en onafhankelijk bijgehouden, zonder aanbeveling van specifieke merken of bedrijven.",
+    "groups": [
+      {
+        "icon": "🚻",
+        "title": "Toiletten & openbare voorzieningen",
+        "items": [
+          "Marina-toiletten: bij het servicedeel van het plein, met standaardcabines en een toegankelijk toilet (PMR).",
+          "Voorzieningen in de oude stad en het park: bij de Jardins Manuel Bivar en de poort van de Arco da Vila.",
+          "Gebruikstip: sommige openbare toiletten kunnen kleingeld (0,50–1,00 EUR) of een scan-en-betaalcode vereisen; neem kleingeld mee. Alle openbare zones zijn zonder traptreden toegankelijk."
+        ]
+      },
+      {
+        "icon": "🅿️",
+        "title": "Parkeren & bereikbaarheid met de auto",
+        "items": [
+          "Blauwe Zone (parkeren met tijdslimiet): langs de marina en zijstraten, met straatparkeermeters waar je een ticket koopt en zichtbaar neerlegt.",
+          "Openbare parkeerterreinen in de open lucht: grote terreinen aan de rand van de marina en langs de spoorlijn, geschikt voor lang verblijf.",
+          "Ondergrondse parkeergarage: bij de ingang van de oude stad, overdekt en koeler, per uur te betalen.",
+          "In- en uitstapzone: kortparkeerplaatsen bij de marina-ingang, alleen voor taxi's en het opstappen van passagiers."
+        ]
+      },
+      {
+        "icon": "🔌",
+        "title": "Brandstof & EV-laden",
+        "items": [
+          "Openbaar EV-laden (MOBI.E-netwerk): op de buitenparkeerterreinen van de marina en langs hoofdwegen, met 11/22 kW AC en snelladen, te betalen met kaart of app.",
+          "Tankstations: langs de N125 en richting luchthaven Faro, met Euro 95/98, diesel en zelfbedienings-was/lucht."
+        ]
+      },
+      {
+        "icon": "🛒",
+        "title": "Supermarkten, winkels & benodigdheden",
+        "items": [
+          "Stadsmarkt (Mercado Municipal): aan de rand van de oude stad, ideaal voor vers fruit, zeevruchten, olijfolie en lokale producten.",
+          "Buurtwinkels en supermarkten: rond de marina en aangrenzende straten, voor water, snacks en zonbescherming.",
+          "Apotheek: in de winkelstraat van de oude stad en op hoofdkruisingen, gemarkeerd met een groen kruis, voor vrij verkrijgbare medicijnen en basisbenodigdheden."
+        ]
+      },
+      {
+        "icon": "🍽️",
+        "title": "Restaurants & eettijden",
+        "items": [
+          "Snackbar/café met uitzicht op de marina: voor koffie, Pastel de Nata en lichte salades overdag, met uitzicht op de haven.",
+          "Traditionele taveerne (restaurante típico): in de steegjes van de oude stad, met gegrilde vis, Cataplana en huiskokin.",
+          "Eettip: lunch 12:30–15:00, diner 19:30–22:30; sommige taveernes sluiten tussen 15:00 en 19:00."
+        ]
+      },
+      {
+        "icon": "🏨",
+        "title": "Wijk- & accommodatietypen",
+        "items": [
+          "Hotels en appartementen met marinazicht: naast de Marina, met vrij uitzicht op de waterfront en gemakkelijke veerbootverbinding.",
+          "Pension/gastenhuis in de oude stad: binnen of rond de muren, in oude gebouwen: culturele sfeer, maar kinderhoofdjes bemoeilijken grote bagage.",
+          "Hostel en budgetaccommodaties: tussen station en marina, voor rugzaktoeristen en onafhankelijke reizigers."
+        ]
+      }
+    ]
+  },
+  "transport": {
+    "title": "Bereikbaarheid",
+    "intro": "Faro Marina ligt in het stadscentrum, op enkele minuten lopen van het station en het busstation. Hier zijn de praktische manieren om er te komen.",
+    "modes": [
+      {
+        "icon": "✈️",
+        "title": "Per vliegtuig — Luchthaven Faro (FAO)",
+        "body": "De luchthaven van Faro ligt ongeveer 7–10 km ten westen van de marina. Vanaf aankomst kun je de stadsbus (Próximo-lijn 16) naar de Terminal Rodoviário nemen in ongeveer 25–35 minuten; taxi's en deelritdiensten doen er ongeveer 15 minuten over. Alle grote autoverhuurders hebben een balie op de luchthaven.",
+        "tips": [
+          "Stadsbuslijn 16: betaling aan boord voor een paar euro; de frequentie daalt in de middag en in het weekend.",
+          "Taxi of deelrit naar het centrum: meestal 10–18 EUR, afhankelijk van tijdstip en bagage.",
+          "Huurauto: vergelijk de balies op de luchthaven en boek van tevoren in de zomer."
+        ]
+      },
+      {
+        "icon": "🚌",
+        "title": "Openbaar vervoer — Bus, trein & langeafstandsbus",
+        "body": "De stadsbussen van Faro (Próximo) verbinden de luchthaven, het station, het strand en de voorsteden; het ticket wordt in de bus gekocht. Het station is een belangrijke halte aan de Algarve-lijn met regionale treinen naar Lagos en Vila Real de Santo António en snelle verbindingen naar Lissabon. De Terminal Rodoviário biedt nationale en internationale langeafstandsbusverbindingen.",
+        "tips": [
+          "Stadsbus tarief: ongeveer 1,80–2,00 EUR; een oplaadbare kaart loont bij meerdere ritten.",
+          "Trein naar Lissabon: Alfa Pendular in ongeveer 3 uur — boek van tevoren voor de beste prijs.",
+          "Langeafstandsbussen: langeafstands- en grensoverschrijdende diensten vertrekken vanaf de Terminal Rodoviário, tegenover de marina."
+        ]
+      },
+      {
+        "icon": "🚕",
+        "title": "Taxi & deelrit",
+        "body": "Taxistandplaatsen bevinden zich op de luchthaven, het station en bij de marina-ingang. Ook deelrit-apps opereren in Faro en kosten meestal vergelijkbaar. Beide zijn handig met bagage of bij late aankomsten.",
+        "tips": [
+          "Gebruik de aangegeven standplaatsen of officiële apps; bij taxi's bevestig een geschatte prijs als er geen meter zichtbaar is.",
+          "Vanaf het station naar de marina is de rit zeer kort: lopend ben je vaak sneller."
+        ]
+      },
+      {
+        "icon": "🚗",
+        "title": "Met de auto & parkeren",
+        "body": "Navigeer naar Praça Dom Francisco Gomes, 8000-168 Faro. De marina is goed aangegeven vanaf de A22/IC4. Vanuit Lissabon neem je de A2 en dan de A22 (ongeveer 2,5–3 uur); vanuit Spanje volg je de A22/AP-7. Verschillende openbare parkeerterreinen en een korte in- en uitstapzone liggen op enkele minuten lopen.",
+        "tips": [
+          "Blauwe Zone met tijdslimiet bij de marina; parkeerterreinen in de open lucht en een ondergrondse garage bij de oude stad voor lang verblijf.",
+          "In het hoogseizoen raken de plekken vol: kom vroeg of gebruik openbaar vervoer."
+        ]
+      },
+      {
+        "icon": "🚶",
+        "title": "Lopend vanaf het station",
+        "body": "Het station van Faro en de Terminal Rodoviário zijn beide te voet bereikbaar. Verlaat het station en volg de Av. da República ongeveer 500 m (6–8 minuten) zuidoostwaarts tot de marina; het busstation ligt direct tegenover de marina-ingang, minder dan 3 minuten lopen.",
+        "tips": [
+          "De route is vlak en zonder traptreden: een ontspannen wandeling langs de laan.",
+          "Rolbagage is geen probleem; kinderhoofdjes beginnen pas in de oude stad."
+        ]
+      }
+    ],
+    "cta": "Route openen in Maps"
+  },
+  "nearby": {
+    "title": "Bezienswaardigheden in de buurt",
+    "intro": "Punten van interesse op loopafstand van de marina.",
+    "items": [
+      { "name": "Arco da Vila", "distance": "Te voet" },
+      { "name": "Kathedraal van Faro", "distance": "Te voet" },
+      { "name": "Oude stad", "distance": "Te voet" },
+      { "name": "Jardim Manuel Bivar", "distance": "Dichtbij" }
+    ]
+  },
+  "food": {
+    "title": "Gastronomische cultuur",
+    "intro": "De Algarve heeft een rijke zeevruchtenkeuken. Hier zijn enkele typische lokale gerechten.",
+    "dishes": [
+      { "name": "Cataplana", "desc": "Een stoofschotel van zeevruchten en vlees, gekookt in een traditionele koperen pot." },
+      { "name": "Gegrilde sardines", "desc": "Gegrilde sardines, een zomerse klassieker van de Algarve." },
+      { "name": "Octopus (Polvo)", "desc": "Octopus uit de oven met olijfolie en aardappelen." },
+      { "name": "Pastel de Nata", "desc": "Custardtaartjes met kaneel." }
+    ]
+  },
+  "bestTime": {
+    "title": "Beste reistijd",
+    "intro": "Faro heeft een mediterraan klimaat met meer dan 300 zonnige dagen per jaar.",
+    "seasons": [
+      { "period": "Lente (mrt–mei)", "note": "Zachte temperaturen en minder toeristen." },
+      { "period": "Zomer (jun–aug)", "note": "Hete, zonnige dagen; hoogseizoen." },
+      { "period": "Herfst (sep–okt)", "note": "Zacht en rustig, ideaal om te wandelen." },
+      { "period": "Winter (nov–feb)", "note": "Zacht en rustig, goed voor de stad." }
+    ]
+  },
+  "gallery": {
+    "title": "Fotogalerij",
+    "caption": "Uitzichten op de marina, de Ria Formosa en de zonsondergang."
+  },
+  "reviews": {
+    "title": "Samenvatting van bezoekerservaringen",
+    "ratingLabel": "Beoordeling",
+    "reviewCountLabel": "beoordelingen",
+    "likesTitle": "Bezoekers vinden meestal leuk",
+    "tipsTitle": "Tips van bezoekers",
+    "likes": ["Zeezicht", "Dicht bij de oude stad", "Fijn om te wandelen"],
+    "tips": ["Felle zon in de zomer", "Drukker in de middag"],
+    "sourcePrefix": "Beoordeling en aantal beoordelingen gesynchroniseerd vanuit Google Maps-beoordelingen · sep 2026 · ",
+    "sourceLinkLabel": "Alle beoordelingen op Google Maps bekijken",
+    "sourceStatement": "Gesynchroniseerd vanuit Google Maps-beoordelingen, synchronisatie sep 2026; auteursrecht berust bij de oorspronkelijke auteurs en Google Maps.",
+    "sourceButton": "Alle beoordelingen op Google Maps bekijken",
+    "sourcesTitle": "Bronnen",
+    "sourcesReview": "Beoordelingen · gesynchroniseerd sep 2026"
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      { "q": "Waar ligt Faro Marina?", "a": "Het ligt aan de Praça Dom Francisco Gomes, in het centrum van Faro, Algarve." },
+      { "q": "Is de marina gratis?", "a": "De waterfront is openbaar en gratis toegankelijk; boottochten zijn betaald." },
+      { "q": "Wat is de beste reistijd?", "a": "Lente en herfst bieden aangename temperaturen." },
+      { "q": "Hoe kom ik vanaf de luchthaven?", "a": "Je kunt een taxi, bus of huurauto nemen vanaf luchthaven Faro (FAO), ongeveer 10 km verderop." },
+      { "q": "Is het makkelijk om bij de Marina te parkeren?", "a": "Er is een Blauwe Zone met tijdslimiet bij de marina, parkeerterreinen in de open lucht en een ondergrondse garage bij de oude stad. In het hoogseizoen raken de plekken vol: kom vroeg of gebruik openbaar vervoer." },
+      { "q": "Zijn openbare toiletten betaald?", "a": "Sommige openbare toiletten kunnen kleingeld (0,50–1,00 EUR) of een scan-en-betaalcode vereisen. Neem kleingeld mee; alle openbare zones zijn zonder traptreden toegankelijk." },
+      { "q": "Zijn er EV-laadpalen in de buurt?", "a": "Ja, op het openbare MOBI.E-netwerk, op de buitenparkeerterreinen van de marina en langs hoofdwegen, met 11/22 kW AC en snelladen, te betalen met kaart of app." },
+      { "q": "Welke openbare voorzieningen zijn er bij de Marina?", "a": "Openbare toiletten, parkeerplaatsen (Blauwe Zone en ondergronds), EV-laden op het MOBI.E-netwerk en vervoersknooppunten liggen op enkele stappen afstand — zie de kaartsectie voor de exacte locaties." }
+    ]
+  },
+  "footer": {
+    "siteName": "Faro Marina Gids",
+    "authorityTitle": "Officieel toerisme",
+    "description": "Een meertalige informatiegids over Faro Marina.",
+    "disclaimer": "Dit is een onafhankelijk, non-profit informatieproject voor bezoekers, niet verbonden aan een overheidsinstantie of officiële organisatie. Locatie-informatie wordt geverifieerd aan de hand van openbare bronnen van de Câmara Municipal de Faro, Turismo do Algarve en Turismo de Portugal, zonder commerciële aanbeveling.",
+    "copyright": "© 2026 Faro Marina Gids. Alle rechten voorbehouden.",
+    "legalTitle": "Juridisch",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
+    "cookie": "Cookie-instellingen"
+  },
+  "seasonal": {
+    "title": "Reisstrategie per seizoen",
+    "intro": "Een kwartaal-voor-kwartaal gids voor Faro Marina en de Ria Formosa die typisch weer, zeecondities en wildlife combineert, zodat je plant rond de natuur, niet alleen de kalender.",
+    "columns": {
+      "season": "Seizoen",
+      "weather": "Weer & zee",
+      "water": "Water & zwemmen",
+      "wildlife": "Wildlife-hoogtepunten"
+    },
+    "rows": [
+      {
+        "season": "Lente (mrt–mei)",
+        "weather": "Zacht 16–22 °C, lichte regen neemt af, zachte bries: het comfortabelste wandelseizoen.",
+        "water": "Zee 16–18 °C en meestal rustig; eilandveerboten varen regelmatig.",
+        "wildlife": "Piek van flamingo's en trekvogels; wilde bloemen langs de lagunerand."
+      },
+      {
+        "season": "Zomer (jun–aug)",
+        "weather": "Heet 28–35 °C, bijna geen regen, zeer sterke UV in de middag: plan buitenactiviteiten 's ochtends en 's avonds.",
+        "water": "Zee 20–24 °C, het warmst en drukst; badmeesters alleen op de oceaanstranden.",
+        "wildlife": "Minder trekvogels, maar jonge vissen en zeeschildpadden zijn actief; boottochten zijn op hun hoogtepunt."
+      },
+      {
+        "season": "Herfst (sep–okt)",
+        "weather": "Warm 22–28 °C, zee nog warm, veel minder mensen: velen zien dit als het ideale venster.",
+        "water": "Zee ~22 °C; rustig, helder water goed om te zwemmen en fotograferen.",
+        "wildlife": "Vogels beginnen terug te keren; zacht licht en rustige lagunes."
+      },
+      {
+        "season": "Winter (nov–feb)",
+        "weather": "Zacht 12–18 °C maar natter, met soms een Atlantische storm en dramatische luchten.",
+        "water": "Zee 15–17 °C: fris, voor de dapperen; sommige veerdiensten zijn beperkt.",
+        "wildlife": "Overwinterende flamingo's en steltlopers vullen de lagune; het rustigste en goedkoopste seizoen voor de stad."
+      }
+    ]
+  },
+  "itineraries": {
+    "title": "Aanbevolen routes",
+    "intro": "Kies een route die past bij je groep en tempo. Alle beginnen bij Faro Marina.",
+    "audienceTitle": "Kies op reizigerstype",
+    "audiences": [
+      {
+        "icon": "👨‍👩‍👧",
+        "title": "Gezinnen met kinderen",
+        "body": "Kort, vlak en stressvrij: waterfront-uitzicht, een speeltuin, een rustige boottocht en tijd voor een ijsje, zonder lange wandelingen.",
+        "steps": [
+          "Wandelen langs de marina-promenade",
+          "Spelen en rusten in de Jardim Manuel Bivar",
+          "Korte boottocht naar het dichtstbijzijnde barrière-eilandstrand",
+          "Ijsje en vroeg diner voor de middagwarmte"
+        ]
+      },
+      {
+        "icon": "📷",
+        "title": "Fotografie & natuur",
+        "body": "Gericht op licht en wildlife: zonsopgang en -ondergang boven het water, een boottocht door de lagune en de texturen van de oude stad.",
+        "steps": [
+          "Zonsopgang boven de Ria Formosa vanaf de marina",
+          "Boottocht de lagune in naar flamingo's en zeevogels",
+          "Stegen van de oude stad, Arco da Vila en de kathedraal",
+          "Dam of veerboot naar Ilha Deserta/Barreta voor open horizonnen"
+        ]
+      },
+      {
+        "icon": "♿",
+        "title": "Weinig inspanning / toegankelijk",
+        "body": "Grotendeels zonder traptreden en zonder haast: een café aan het water, bankjes en een korte taxi of boot, zonder lange eilandwandelingen.",
+        "steps": [
+          "Vlakke promenade met veel bankjes",
+          "Koffie met havenzicht",
+          "Korte taxi of toegankelijke boot naar een toegankelijk strand",
+          "Rustige terugkeer door de oude stad"
+        ]
+      }
+    ],
+    "routesTitle": "Algemene routes",
+    "routes": [
+      {
+        "icon": "🌅",
+        "title": "Halve dag (2–3 uur)",
+        "body": "Een compacte lus van de waterfront en het historische centrum.",
+        "items": [
+          "Faro Marina en Praça Dom Francisco Gomes",
+          "Arco da Vila en de oude stad",
+          "Kathedraal van Faro en een koffiestop",
+          "Terug langs de waterfront"
+        ]
+      },
+      {
+        "icon": "🗺️",
+        "title": "Hele dag (5–6 uur)",
+        "body": "De halve-daglus plus een lagune-eilandervaring.",
+        "items": [
+          "Ochtend: marina, oude stad en kathedraal",
+          "Middag: lunch aan het water",
+          "Middag: boottocht naar Ilha Deserta, Barreta of Culatra",
+          "Einde: strand of picknick, dan zonsondergang op de terugweg"
+        ]
+      }
+    ]
+  },
+  "responsibility": {
+    "title": "Wetenschap & bezoekersverantwoordelijkheid",
+    "intro": "Faro Marina is de landpoort naar het natuurpark Ria Formosa. Een beetje bewustzijn helpt veel om het gezond te houden.",
+    "scienceTitle": "Waarom de lagune ertoe doet",
+    "science": [
+      { "emoji": "🌊", "title": "Een broedplaats van de Atlantische Oceaan", "text": "De zeegrasvelden en zoutmoerassen van de lagune zijn paaigebied voor vissen en het beschermde langsnuitzeepaardje." },
+      { "emoji": "🦩", "title": "Een rustplaats voor 20.000+ vogels", "text": "Twee keer per jaar rusten en voeden tienduizenden watervogels zich hier, waaronder flamingo's en de purperkoet, het symbool van het park." },
+      { "emoji": "🛡️", "title": "Een beschermde kust", "text": "Opgericht in 1987 en verkozen tot een van Portugals natuurwonderen, beschermen de barrière-eilanden Faro tegen stormen en erosie." }
+    ],
+    "dutyTitle": "Hoe bezoekers helpen beschermen",
+    "duty": [
+      "Neem al je afval mee terug – op het water en de eilanden zijn weinig containers.",
+      "Houd afstand tot vogels en voeder nooit wildlife.",
+      "Gebruik rifvriendelijke zonnebrand en vermijd het betreden van zeegrasvelden.",
+      "Kies vergunninghoudende, milieuvriendelijke boottochten die de parkregels volgen.",
+      "Respecteer seizoensgebonden toegangsverboden die broeden en voortplanting beschermen."
+    ]
+  }
+}

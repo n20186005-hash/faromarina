@@ -1,0 +1,463 @@
+{
+  "mapsUrl": "https://maps.app.goo.gl/XPFdhSB6k3LhYxe8A",
+  "meta": {
+    "title": "Faro Marina (Doca de Faro) | Besucherführer, Parken & Aktivitäten",
+    "description": "Planen Sie Ihren Besuch der Faro Marina (Doca de Faro) im Algarve: Parken, Bootsfahrten durch die Ria Formosa, Spaziergänge durch die Altstadt, Küche am Wasser und Reisetipps."
+  },
+  "common": {
+    "changeLanguage": "Sprache",
+    "toggleTheme": "Design",
+    "readMore": "Mehr lesen",
+    "faroAlgarve": "Faro · Algarve",
+    "info": "Info",
+    "faunaFlora": "Tier- & Pflanzenwelt",
+    "timeline": "Zeitstrahl"
+  },
+  "header": {
+    "siteName": "Faro Marina",
+    "tagline": "Doca de Faro",
+    "home": "Start",
+    "visit": "Besuchen",
+    "history": "Geschichte",
+    "ecology": "Natur",
+    "legends": "Legenden",
+    "transport": "Anreise",
+    "nearby": "Umgebung",
+    "food": "Kulinarik",
+    "gallery": "Galerie",
+    "reviews": "Bewertungen",
+    "faq": "FAQ",
+    "map": "Karte"
+  },
+  "map": {
+    "title": "Lage & Karte der nahegelegenen Einrichtungen",
+    "intro": "Diese Karte zeigt Typen und Standorte öffentlicher Einrichtungen rund um die Faro Marina (Toiletten, öffentliche Parkplätze, E-Ladestationen, Verkehrsknotenpunkte). Klicken Sie auf eine Kategorie zum Filtern – es werden nur Einrichtungsinformationen ohne kommerzielle Links angezeigt.",
+    "all": "Alle",
+    "ctaOpen": "In Google Maps öffnen",
+    "officialTourism": "Für offizielle regionale Tourismusinformationen besuchen Sie",
+    "officialTourismLink": "Turismo de Portugal",
+    "categories": [
+      { "id": "wc", "label": "Toiletten", "icon": "🚻" },
+      { "id": "parking", "label": "Parkplätze", "icon": "🅿️" },
+      { "id": "ev", "label": "E-Ladestationen", "icon": "🔌" },
+      { "id": "transit", "label": "Verkehrsknoten", "icon": "🚉" }
+    ]
+  },
+  "hero": {
+    "title": "Faro Marina",
+    "subtitle": "Das Hafentor von Faro, im Herzen des Algarve.",
+    "ctaMaps": "In Google Maps öffnen",
+    "quickFacts": [
+      { "icon": "⭐", "label": "Bewertung", "value": "4,4 / 5" },
+      { "icon": "📍", "label": "Ort", "value": "Faro, Portugal" },
+      { "icon": "🕒", "label": "Öffnungszeiten", "value": "24 h geöffnet" },
+      { "icon": "🏛", "label": "Typ", "value": "Wasserfront" }
+    ]
+  },
+  "quickInfo": {
+    "title": "Kurzinfo",
+    "rating": "Bewertung",
+    "location": "Ort",
+    "hours": "Öffnungszeiten",
+    "category": "Kategorie"
+  },
+  "about": {
+    "title": "Über die Faro Marina",
+    "paragraphs": [
+      "Die Faro Marina ist das Hafengebiet in der historischen Altstadt von Faro im Algarve.",
+      "Sie liegt neben der Praça Dom Francisco Gomes und verbindet die Altstadt mit der Lagune der Ria Formosa.",
+      "Sie ist ein Ausgangspunkt für Bootsfahrten und ein ruhiger Ort für Spaziergänge am Meer."
+    ],
+    "managedBy": "Betrieben von Docapesca – Portos e Lotas, S.A. (portugiesische Hafen- und Fischmarktbehörde) gemeinsam mit der Câmara Municipal de Faro (Stadt Faro)."
+  },
+  "history": {
+    "title": "Geschichte & maritimes Erbe",
+    "intro": "Von einem antiken Handelshafen zum maritimen Tor des Algarve.",
+    "historicalSignificance": "Ein geschützter Naturhafen maurischen Ursprungs, der nach dem Erdbeben von 1755 zum maritimen Zentrum des Algarve aufstieg und seit 1756 regionales Hauptstadtgebiet ist.",
+    "paragraphs": [
+      "Die Geschichte der Faro Marina (Doca de Faro) reicht in die maurische Zeit zurück, als Faro als Santa Maria de Faaron bekannt war. Als natürlicher geschützter Hafen an der Südspitze der Iberischen Halbinsel war sie ein wichtiger Handelsknotenpunkt für Salz, Olivenöl, Feigen und getrockneten Fisch mit dem Mittelmeer und Nordafrika.",
+      "Das Erdbeben von Lissabon 1755 und der folgende Tsunami zerstörten große Teile der Algarve-Küste. Dank des natürlichen Schutzes durch die Barriereinseln der Lagune der Ria Formosa blieben Marina und Altstadt jedoch weniger direkt betroffen. 1756 löste Faro die schwer beschädigten Silves und Lagos als Hauptstadt des Algarve ab, und die Marina wurde zum maritimen, politischen und wirtschaftlichen Zentrum der Region.",
+      "Während der Entdeckungsfahrten war die Marina eine Zwischenstation für Entdecker und Handelsschiffe. Heute liegen hier vor allem Yachten und Segelboote, doch die Wassertopografie bewahrt noch immer den historischen Grundriss aus dem 18. Jahrhundert."
+    ],
+    "timeline": [
+      { "year": "1249", "title": "Eroberung von Faro", "text": "König Alfons III. erobert Faro; der antike Hafen tritt dem Königreich Portugal bei." },
+      { "year": "1755", "title": "Erdbeben von Lissabon", "text": "Der Tsunami trifft den Algarve, doch die Ria Formosa schützt Faro; die Stadt wird weniger beschädigt." },
+      { "year": "1756", "title": "Hauptstadt des Algarve", "text": "Faro wird zur Hauptstadt des Algarve und hebt die Marina zu einem regionalen Zentrum." },
+      { "year": "1812", "title": "Arco da Vila", "text": "Bischof D. Francisco Gomes leitet den Bau des Arco da Vila und prägt so den Platz." },
+      { "year": "1987", "title": "Naturpark", "text": "Gründung des Naturparks Ria Formosa; die Marina wird zu einem Ökotourismus-Zentrum." }
+    ]
+  },
+  "ecology": {
+    "title": "Naturdenkmal: Die Lagune der Ria Formosa",
+    "intro": "Das Landtor zum Naturpark Ria Formosa.",
+    "paragraphs": [
+      "Die Faro Marina ist nicht nur ein Anlegeplatz für Menschen – sie ist das Landtor zum Naturpark Ria Formosa. Das Gebiet wurde 1987 zum Naturpark erklärt und zu einer der Sieben Naturwunder Portugals gewählt.",
+      "Die Lagune besteht aus 5 Barriereinseln und 2 Halbinseln. Zwei tägliche Gezeiten bringen reiche Nährstoffe und schaffen ein einzigartiges Salzmarschen-Ökosystem.",
+      "Die Gewässer beherbergen Seepferdchen (Hippocampus guttulatus und Hippocampus hippocampus), bedrohte Arten. Die Seegraswiesen sind ein ideales Aufzuchtgebiet für sie.",
+      "Während der Frühjahrs- und Herbstzüge rasten hier über 20.000 Wasservögel, darunter Flamingos, das Purpurhuhn (das Wappentier des Parks) und Löffler."
+    ],
+    "species": [
+      { "emoji": "🦩", "name": "Rosaflamingo", "note": "Beste Sicht: Nov – März" },
+      { "emoji": "🐴", "name": "Langsschnäuziges Seepferdchen", "note": "Geschützte Unterwasserart" },
+      { "emoji": "🌿", "name": "Salzmarschen-Pflanzen", "note": "Watt-Ökosystem" },
+      { "emoji": "🐦", "name": "Zugvögel", "note": "Über 20.000 Vögel pro Jahr" }
+    ]
+  },
+  "legends": {
+    "title": "Legenden & Architektur",
+    "intro": "Die Geschichten und das Design hinter den Sehenswürdigkeiten nahe der Marina.",
+    "items": [
+      { "emoji": "🏛️", "title": "Der Arco da Vila und der aufgeklärte Bischof", "text": "Nahe der Marina ist der Arco da Vila das repräsentativste neoklassische Gebäude von Faro. Er wurde 1812 vom italienischen Architekten Francisco Xavier Fabri auf Einladung des aufgeklärten Bischofs D. Francisco Gomes de Avelar entworfen. Eine Nische an der Fassade beherbergt den heiligen Thomas von Aquin, den Schutzpatron von Faro." },
+      { "emoji": "📜", "title": "Die Legende der verzauberten maurischen Prinzessin", "text": "Die Legende erzählt, dass am Vorabend von 1249 eine maurische Prinzessin den Familienschatz in den Brunnen und Gewässern an den alten Mauern versteckte. In der Johannisnacht können Besucher, die mit dem Boot die Marina befahren, mitunter den fernen Gesang der jungen Maurin tief aus dem Schilf hören." }
+    ],
+    "audioTour": {
+      "title": "3-Minuten-Audioguide",
+      "label": "Hören Sie die Geschichte des Arco da Vila",
+      "note": "Demnächst"
+    }
+  },
+  "thingsTodo": {
+    "title": "Aktivitäten",
+    "intro": "Empfohlene Erlebnisse rund um die Marina und die Wasserfront.",
+    "items": [
+      {
+        "title": "Spaziergang am Meer",
+        "icon": "🚶",
+        "tags": ["Gehen", "Entspannung"],
+        "duration": "30–60 Min",
+        "description": "Schlendern Sie entlang der Wasserfront und genießen Sie den Blick auf die Ria Formosa."
+      },
+      {
+        "title": "Sonnenuntergang beobachten",
+        "icon": "🌅",
+        "tags": ["Fotografie", "Paare", "Entspannung"],
+        "duration": "30 Min",
+        "description": "Der Sonnenuntergang über dem Wasser schafft hervorragendes Licht zum Fotografieren."
+      },
+      {
+        "title": "Ria Formosa erkunden",
+        "icon": "🚤",
+        "tags": ["Natur", "Bootsfahrten", "Wildtiere"],
+        "duration": "2–4 Std",
+        "description": "Machen Sie Bootsfahrten durch die Lagune und beobachten Sie die einheimische Tierwelt."
+      },
+      {
+        "title": "Spaziergang durch die Altstadt",
+        "icon": "🏛",
+        "tags": ["Geschichte", "Kultur"],
+        "duration": "45 Min",
+        "description": "Folgen Sie dem Fußweg von der Marina in die Altstadt von Faro."
+      }
+    ],
+    "oldTownRoute": {
+      "title": "Spaziergang: Marina → Altstadt",
+      "steps": ["Faro Marina", "Praça Dom Francisco Gomes", "Arco da Vila", "Faro Kathedrale", "Altstadt"]
+    }
+  },
+  "practical": {
+    "title": "Praktische Informationen & öffentliche Einrichtungen",
+    "intro": "Ein Leitfaden zu öffentlichen Diensten und Einrichtungen rund um die Faro Marina – neutral und unabhängig geführt, ohne Empfehlung bestimmter Marken oder Unternehmen.",
+    "groups": [
+      {
+        "icon": "🚻",
+        "title": "Toiletten & öffentliche Einrichtungen",
+        "items": [
+          "Marina-Toiletten: nahe dem Serviceteil des Platzes, mit Standardkabinen und einem barrierefreien WC (PRM).",
+          "Einrichtungen in Altstadt und Park: bei den Jardins Manuel Bivar und am Tor des Arco da Vila.",
+          "Nutzungstipp: Einige öffentliche Toiletten benötigen kleine Münzen (0,50–1,00 EUR) oder einen Scan-zum-Bezahlen-Code; führen Sie Kleingeld mit. Alle öffentlichen Bereiche sind stufenfrei."
+        ]
+      },
+      {
+        "icon": "🅿️",
+        "title": "Parken & Anfahrt mit dem Auto",
+        "items": [
+          "Blaue Zone (Zeitbegrenztes Parken): entlang der Marina und der Seitenstraßen, mit Straßenparkuhren, an denen man ein Ticket kauft und sichtbar ablegt.",
+          "Öffentliche Parkplätze im Freien: große Flächen am Marina-Rand und entlang der Bahnlinie, geeignet für längere Aufenthalte.",
+          "Tiefgarage: nahe dem Eingang der Altstadt, überdacht und kühler, stundenweise kostenpflichtig.",
+          "Ein- und Ausstiegszone: Kurzzeitplätze am Marina-Eingang, nur für Taxis und Fahrgäste."
+        ]
+      },
+      {
+        "icon": "🔌",
+        "title": "Kraftstoff & E-Ladestationen",
+        "items": [
+          "Öffentliches E-Laden (MOBI.E-Netz): in den äußeren Marina-Parkplätzen und entlang der Hauptstraßen, mit 11/22 kW AC und Schnellladung, per Karte oder App bezahlbar.",
+          "Tankstellen: entlang der N125 und Richtung Flughafen Faro, mit Super 95/98, Diesel und Selbstbedienungs-Wasch- und Reifenluft."
+        ]
+      },
+      {
+        "icon": "🛒",
+        "title": "Supermärkte, Geschäfte & Bedarf",
+        "items": [
+          "Stadthalle (Mercado Municipal): am Rand der Altstadt, am besten für frisches Obst, Meeresfrüchte, Olivenöl und lokale Produkte.",
+          "Quartier-Minimärkte und Supermärkte: rund um die Marina und benachbarte Straßen, für Wasser, Snacks und Sonnenschutz.",
+          "Apotheke (Farmácia): in der Einkaufsstraße der Altstadt und an Hauptkreuzungen, mit grünem Kreuz markiert, für rezeptfreie Medikamente und Grundbedarf."
+        ]
+      },
+      {
+        "icon": "🍽️",
+        "title": "Gastronomie & Essenszeiten",
+        "items": [
+          "Snack-Bar/Café mit Marina-Blick: für Kaffee, Pastel de Nata und leichte Salate tagsüber, mit Hafenblick.",
+          "Traditionelle Taverne (restaurante típico): in den Gassen der Altstadt, mit gegrilltem Fisch, Cataplana und Hausmannskost.",
+          "Essens-Tipp: Mittag 12:30–15:00, Abend 19:30–22:30; einige Taverne schließen zwischen 15:00 und 19:00."
+        ]
+      },
+      {
+        "icon": "🏨",
+        "title": "Unterkunftsgebiete & -arten",
+        "items": [
+          "Hotels und Apartments mit Marina-Blick: neben der Marina, mit freiem Wasserblick und einfacher Fährverbindung.",
+          "Pension/Gästehaus in der Altstadt: innerhalb oder rund um die Mauern, in alten Gebäuden – kulturell reizvoll, aber Kopfsteinpflaster erschwert das Gepäck.",
+          "Jugendherberge & Budget-Unterkünfte: zwischen Bahnhof und Marina, für Rucksackreisende und Individualreisende."
+        ]
+      }
+    ]
+  },
+  "transport": {
+    "title": "Anreise",
+    "intro": "Die Faro Marina liegt im Stadtzentrum, nur wenige Gehminuten vom Bahnhof und dem Hauptbusbahnhof entfernt. Hier sind die praktischen Möglichkeiten, sie zu erreichen.",
+    "modes": [
+      {
+        "icon": "✈️",
+        "title": "Mit dem Flugzeug – Flughafen Faro (FAO)",
+        "body": "Der Flughafen Faro liegt etwa 7–10 km westlich der Marina. Von der Ankunft aus können Sie den Stadtbus (Próximo-Linie 16) in etwa 25–35 Minuten zum Terminal Rodoviário nehmen; Taxis und Mitfahrdienste brauchen etwa 15 Minuten. Alle großen Autovermieter haben Schalter am Flughafen.",
+        "tips": [
+          "Stadtbuslinie 16: Barzahlung im Bus für ein paar Euro; die Taktung lässt nachmittags und am Wochenende nach.",
+          "Taxi oder Mitfahrdienst ins Zentrum: meist 10–18 EUR, je nach Tageszeit und Gepäck.",
+          "Mietwagen: Vergleichen Sie die Schalter am Flughafen und buchen Sie im Sommer voraus."
+        ]
+      },
+      {
+        "icon": "🚌",
+        "title": "Öffentlicher Verkehr – Bus, Bahn & Fernbus",
+        "body": "Die Stadtbusse von Faro (Próximo) verbinden Flughafen, Bahnhof, Strand und Vororte; das Ticket wird im Bus gekauft. Der Bahnhof ist ein wichtiger Halt an der Algarve-Linie mit Regionalzügen nach Lagos und Vila Real de Santo António sowie schnellen Verbindungen nach Lissabon. Der Terminal Rodoviário bietet nationale und internationale Fernbusverbindungen.",
+        "tips": [
+          "Stadtbustarif: etwa 1,80–2,00 EUR; eine aufladbare Karte lohnt sich bei mehreren Fahrten.",
+          "Zug nach Lissabon: Alfa Pendular in etwa 3 Stunden – früh buchen für den besten Preis.",
+          "Fernbusse: Fern- und grenzüberschreitende Verbindungen ab Terminal Rodoviário, gegenüber der Marina."
+        ]
+      },
+      {
+        "icon": "🚕",
+        "title": "Taxi & Mitfahrdienst",
+        "body": "Taxistände befinden sich am Flughafen, am Bahnhof und nahe dem Marina-Eingang. Auch Mitfahrdienste-Apps operieren in Faro und kosten meist ähnlich. Beide sind mit Gepäck oder bei späten Ankünften praktisch.",
+        "tips": [
+          "Nutzen Sie die markierten Stände oder die offiziellen Apps; bei Taxis ein ungefähres Fahrpreis vereinbaren, falls kein Zähler sichtbar ist.",
+          "Vom Bahnhof zur Marina ist es eine sehr kurze Fahrt – zu Fuß ist es oft schneller."
+        ]
+      },
+      {
+        "icon": "🚗",
+        "title": "Mit dem Auto & Parken",
+        "body": "Navigieren Sie zu Praça Dom Francisco Gomes, 8000-168 Faro. Die Marina ist ab der A22/IC4 gut ausgeschildert. Von Lissabon nehmen Sie die A2 und dann die A22 (etwa 2,5–3 Stunden); aus Spanien folgen Sie der A22/AP-7. Mehrere öffentliche Parkplätze und eine Kurzzeit-Ein- und Ausstiegszone sind in wenigen Gehminuten erreichbar.",
+        "tips": [
+          "Blaue Zone mit Zeitbegrenzung an der Marina; Parkplätze im Freien und eine Tiefgarage nahe der Altstadt für längere Aufenthalte.",
+          "In der Hochsaison sind die Plätze schnell belegt – kommen Sie früh oder nutzen Sie den öffentlichen Verkehr."
+        ]
+      },
+      {
+        "icon": "🚶",
+        "title": "Zu Fuß ab dem Bahnhof",
+        "body": "Der Bahnhof Faro und der Terminal Rodoviário sind beide fußläufig. Verlassen Sie den Bahnhof und folgen Sie der Av. da República rund 500 m (6–8 Minuten) Richtung Südosten bis zur Marina; der Busbahnhof liegt direkt gegenüber dem Marina-Eingang, weniger als 3 Minuten zu Fuß.",
+        "tips": [
+          "Die Strecke ist flach und stufenfrei – ein entspannter Spaziergang entlang der Allee.",
+          "Rollgepäck ist kein Problem; Kopfsteinpflaster beginnt erst in der Altstadt."
+        ]
+      }
+    ],
+    "cta": "Route in Maps öffnen"
+  },
+  "nearby": {
+    "title": "Sehenswürdigkeiten in der Nähe",
+    "intro": "Interessante Punkte in fußläufiger Entfernung zur Marina.",
+    "items": [
+      { "name": "Arco da Vila", "distance": "Zu Fuß" },
+      { "name": "Faro Kathedrale", "distance": "Zu Fuß" },
+      { "name": "Altstadt", "distance": "Zu Fuß" },
+      { "name": "Jardim Manuel Bivar", "distance": "Nahe" }
+    ]
+  },
+  "food": {
+    "title": "Kulinarik",
+    "intro": "Der Algarve hat eine reiche Meeresfrüchte-Küche. Hier sind einige typische lokale Gerichte.",
+    "dishes": [
+      { "name": "Cataplana", "desc": "Ein Eintopf aus Meeresfrüchten und Fleisch, gekocht in einem traditionellen Kupfertopf." },
+      { "name": "Gegrillte Sardinen", "desc": "Gegrillte Sardinen, ein sommerlicher Klassiker des Algarve." },
+      { "name": "Oktopus (Polvo)", "desc": "Oktopus mit Olivenöl und Kartoffeln aus dem Ofen." },
+      { "name": "Pastel de Nata", "desc": "Cremetörtchen mit Zimt." }
+    ]
+  },
+  "bestTime": {
+    "title": "Beste Reisezeit",
+    "intro": "Faro hat ein mediterranes Klima mit über 300 sonnigen Tagen im Jahr.",
+    "seasons": [
+      { "period": "Frühling (Mär–Mai)", "note": "Milde Temperaturen und weniger Touristen." },
+      { "period": "Sommer (Jun–Aug)", "note": "Heiße, sonnige Tage; Hochsaison." },
+      { "period": "Herbst (Sep–Okt)", "note": "Warm und ruhig, ideal zum Spazieren." },
+      { "period": "Winter (Nov–Feb)", "note": "Mild und ruhig, gut für die Stadt." }
+    ]
+  },
+  "gallery": {
+    "title": "Fotogalerie",
+    "caption": "Blicke auf die Marina, die Ria Formosa und den Sonnenuntergang."
+  },
+  "reviews": {
+    "title": "Zusammenfassung der Besuchererfahrungen",
+    "ratingLabel": "Bewertung",
+    "reviewCountLabel": "Bewertungen",
+    "likesTitle": "Besucher mögen meist",
+    "tipsTitle": "Besuchertipps",
+    "likes": ["Meerblick", "Nahe der Altstadt", "Gut zum Spazieren"],
+    "tips": ["Starke Sonne im Sommer", "Nachmittags voller"],
+    "sourcePrefix": "Bewertung und Bewertungsanzahl synchronisiert aus Google Maps Nutzerbewertungen · Sep 2026 · ",
+    "sourceLinkLabel": "Alle Bewertungen auf Google Maps ansehen",
+    "sourceStatement": "Synchronisiert aus Google Maps Nutzerbewertungen, Synchronisierung Sep 2026; Urheberrecht liegt bei den Originalautoren und Google Maps.",
+    "sourceButton": "Alle Bewertungen auf Google Maps ansehen",
+    "sourcesTitle": "Quellen",
+    "sourcesReview": "Bewertungen · synchronisiert Sep 2026"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      { "q": "Wo liegt die Faro Marina?", "a": "Sie liegt an der Praça Dom Francisco Gomes, im Zentrum von Faro im Algarve." },
+      { "q": "Ist die Marina kostenlos?", "a": "Die Wasserfront ist öffentlich und kostenlos zugänglich; Bootsfahrten sind kostenpflichtig." },
+      { "q": "Wann ist die beste Reisezeit?", "a": "Frühling und Herbst bieten angenehme Temperaturen." },
+      { "q": "Wie komme ich vom Flughafen hin?", "a": "Sie können ein Taxi, einen Bus oder einen Mietwagen vom Flughafen Faro (FAO), etwa 10 km entfernt, nehmen." },
+      { "q": "Ist das Parken bei der Marina einfach?", "a": "Es gibt eine zeitbegrenzte Blaue Zone an der Marina, Parkplätze im Freien und eine Tiefgarage nahe der Altstadt. In der Hochsaison sind die Plätze schnell belegt – kommen Sie früh oder nutzen Sie den öffentlichen Verkehr." },
+      { "q": "Kosten öffentliche Toiletten Eintritt?", "a": "Einige öffentliche Toiletten benötigen kleine Münzen (0,50–1,00 EUR) oder einen Scan-zum-Bezahlen-Code. Führen Sie Kleingeld mit; alle öffentlichen Bereiche sind stufenfrei." },
+      { "q": "Gibt es E-Ladestationen in der Nähe?", "a": "Ja, im öffentlichen MOBI.E-Netz, in den äußeren Marina-Parkplätzen und entlang der Hauptstraßen, mit 11/22 kW AC und Schnellladung, per Karte oder App bezahlbar." },
+      { "q": "Welche öffentlichen Einrichtungen gibt es nahe der Marina?", "a": "Öffentliche Toiletten, Parkplätze (Blaue Zone und Tiefgarage), E-Laden im MOBI.E-Netz und Verkehrsknotenpunkte sind alle wenige Schritte entfernt – siehe Kartensektion für die genauen Standorte." }
+    ]
+  },
+  "footer": {
+    "siteName": "Faro Marina Reiseführer",
+    "authorityTitle": "Offizieller Tourismus",
+    "description": "Ein mehrsprachiger Informationsführer über die Faro Marina.",
+    "disclaimer": "Dies ist ein unabhängiges, gemeinnütziges Besucherinformationsprojekt, das mit keiner Regierungsbehörde oder offiziellen Organisation verbunden ist. Die Ortsinformationen werden anhand öffentlicher Quellen der Câmara Municipal de Faro, Turismo do Algarve und Turismo de Portugal verifiziert, ohne kommerzielle Empfehlung.",
+    "copyright": "© 2026 Faro Marina Reiseführer. Alle Rechte vorbehalten.",
+    "legalTitle": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "cookie": "Cookie-Einstellungen"
+  },
+  "seasonal": {
+    "title": "Reisestrategie nach Saison",
+    "intro": "Ein Vierteljahr-für-Vierteljahr-Leitfaden für die Faro Marina und die Ria Formosa, der typisches Wetter, Meeresbedingungen und Wildtiere kombiniert, damit Sie rund um die Natur planen – nicht nur den Kalender.",
+    "columns": {
+      "season": "Saison",
+      "weather": "Wetter & Meer",
+      "water": "Wasser & Baden",
+      "wildlife": "Wildtier-Höhepunkte"
+    },
+    "rows": [
+      {
+        "season": "Frühling (Mär–Mai)",
+        "weather": "Mild 16–22 °C, leichter Regen lässt nach, sanfte Brisen – die angenehmste Spaziergängersaison.",
+        "water": "Meer 16–18 °C und meist ruhig; Inselfähren verkehren regelmäßig.",
+        "wildlife": "Höhepunkt der Flamingos und Zugvögel; Wildblumen am Lagunenrand."
+      },
+      {
+        "season": "Sommer (Jun–Aug)",
+        "weather": "Heiß 28–35 °C, fast kein Regen, sehr starke UV mittags – planen Sie Aktivitäten im Freien auf Morgen und Abend.",
+        "water": "Meer 20–24 °C, am wärmsten und vollsten; Rettungsschwimmer nur an den Meeresstränden.",
+        "wildlife": "Weniger Zugvögel, aber junge Fische und Meeresschildkröten sind aktiv; Bootsfahrten sind auf ihrem Höhepunkt."
+      },
+      {
+        "season": "Herbst (Sep–Okt)",
+        "weather": "Warm 22–28 °C, Meer noch warm, viel weniger Menschen – viele halten dies für das ideale Fenster.",
+        "water": "Meer ~22 °C; ruhig, klares Wasser gut zum Schwimmen und Fotografieren.",
+        "wildlife": "Vögel kehren zurück; weiches Licht und ruhige Lagunen."
+      },
+      {
+        "season": "Winter (Nov–Feb)",
+        "weather": "Mild 12–18 °C, aber nasser, mit gelegentlichem Atlantiksturm und dramatischen Himmel.",
+        "water": "Meer 15–17 °C – kühl, für Hartgesottene; einige Fährverbindungen sind reduziert.",
+        "wildlife": "Überwinternde Flamingos und Watvögel füllen die Lagune; die ruhigste und günstigste Saison für die Stadt."
+      }
+    ]
+  },
+  "itineraries": {
+    "title": "Empfohlene Reiserouten",
+    "intro": "Wählen Sie eine Route, die zu Ihrer Gruppe und Ihrem Tempo passt. Alle beginnen an der Faro Marina.",
+    "audienceTitle": "Nach Reisetyp wählen",
+    "audiences": [
+      {
+        "icon": "👨‍👩‍👧",
+        "title": "Familien mit Kindern",
+        "body": "Kurz, flach und entspannt: Wasserfront-Blick, ein Spielplatz, eine sanfte Bootsfahrt und Zeit für Eis – ohne lange Wanderungen.",
+        "steps": [
+          "Spaziergang entlang der Marina-Promenade",
+          "Spielen und Ausruhen im Jardim Manuel Bivar",
+          "Kurze Bootsfahrt zum nächsten Barriereinsel-Strand",
+          "Eis und frühes Abendessen vor der Nachmittagshitze"
+        ]
+      },
+      {
+        "icon": "📷",
+        "title": "Fotografie & Natur",
+        "body": "Um Licht und Wildtiere herum aufgebaut: Sonnenaufgang und -untergang über dem Wasser, eine Lagunen-Bootsfahrt und die Texturen der Altstadt.",
+        "steps": [
+          "Sonnenaufgang über der Ria Formosa von der Marina aus",
+          "Bootsfahrt in die Lagune zu Flamingos und Seevögeln",
+          "Altstadt-Gassen, Arco da Vila und die Kathedrale",
+          "Damm oder Fähre zur Ilha Deserta/Barreta für offene Horizonte"
+        ]
+      },
+      {
+        "icon": "♿",
+        "title": "Wenig Aufwand / barrierefrei",
+        "body": "Meist stufenfrei und entspannt: ein Café am Wasser, Bänke und ein kurzes Taxi oder Boot, ohne lange Inselwanderungen.",
+        "steps": [
+          "Flache Promenade mit häufigen Bänken",
+          "Kaffee mit Hafenblick",
+          "Kurzes Taxi oder barrierefreies Boot zu einem zugänglichen Strand",
+          "Gelassene Rückkehr durch die Altstadt"
+        ]
+      }
+    ],
+    "routesTitle": "Allgemeine Routen",
+    "routes": [
+      {
+        "icon": "🌅",
+        "title": "Halbtag (2–3 Std)",
+        "body": "Eine kompakte Schleife der Wasserfront und der Altstadt.",
+        "items": [
+          "Faro Marina und Praça Dom Francisco Gomes",
+          "Arco da Vila und die Altstadt",
+          "Faro Kathedrale und eine Café-Pause",
+          "Zurück entlang der Wasserfront"
+        ]
+      },
+      {
+        "icon": "🗺️",
+        "title": "Ganztags (5–6 Std)",
+        "body": "Die Halbtagsschleife plus ein Laguneninsel-Erlebnis.",
+        "items": [
+          "Vormittag: Marina, Altstadt und Kathedrale",
+          "Mittag: Essen am Wasser",
+          "Nachmittag: Bootsfahrt zu Ilha Deserta, Barreta oder Culatra",
+          "Spät: Strand oder Picknick, dann Sonnenuntergang auf dem Rückweg"
+        ]
+      }
+    ]
+  },
+  "responsibility": {
+    "title": "Wissenschaft & Besucherverantwortung",
+    "intro": "Die Faro Marina ist das Landtor zum Naturpark Ria Formosa. Etwas Bewusstsein trägt viel dazu bei, sie gesund zu erhalten.",
+    "scienceTitle": "Warum die Lagune wichtig ist",
+    "science": [
+      { "emoji": "🌊", "title": "Eine Brutstätte des Atlantiks", "text": "Die Seegraswiesen und Salzmarschen der Lagune sind Laichgebiet für Fische und das geschützte langsschnäuzige Seepferdchen." },
+      { "emoji": "🦩", "title": "Eine Rast für 20.000+ Vögel", "text": "Zweimal im Jahr rasten und fressen hier Zehntausende von Wasservögeln, darunter Flamingos und das Purpurhuhn, das Wappentier des Parks." },
+      { "emoji": "🛡️", "title": "Eine geschützte Küste", "text": "1987 gegründet und zu Portugals Naturwundern gewählt, schützen die Barriereinseln Faro vor Stürmen und Erosion." }
+    ],
+    "dutyTitle": "Wie Besucher zum Schutz beitragen",
+    "duty": [
+      "Nehmen Sie allen Müll mit – auf dem Wasser und den Inseln gibt es wenige Behälter.",
+      "Halten Sie Abstand zu Vögeln und füttern Sie keine Wildtiere.",
+      "Verwenden Sie riffschonendes Sonnenschutzmittel und betreten Sie keine Seegraswiesen.",
+      "Wählen Sie lizenzierte, umweltschonende Bootsfahrten, die sich an die Parkregeln halten.",
+      "Achten Sie auf saisonale Betretungsverbote, die Brut und Laichen schützen."
+    ]
+  }
+}

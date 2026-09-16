@@ -9,10 +9,10 @@ export function getStaticPaths() {
 }
 
 const { lang } = Astro.params;
-const doc = legal[lang].terms;
+const doc = (legal[lang] ?? legal.en).terms;
 const messages = (await import(`../../i18n/${lang}.json`)).default;
 ---
 
-<BaseLayout title={`${doc.title} · ${messages.footer.siteName}`} description={doc.title} path="terms-of-service" lang={lang}>
+<BaseLayout title={`${doc.title} · ${messages.footer.siteName}`} description={doc.title} path="terms-of-service">
   <LegalPage doc={doc} />
 </BaseLayout>
