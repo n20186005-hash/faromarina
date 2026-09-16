@@ -54,6 +54,11 @@ const jsonLd = {
   ],
   isAccessibleForFree: true,
   sameAs: [poi.mapsUrl],
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: poi.rating,
+    reviewCount: poi.reviews,
+  },
 };
 
 const civicLd = {
@@ -65,6 +70,11 @@ const civicLd = {
   description: description,
   url: canonical,
   image: siteConfig.baseUrl + poi.heroImage,
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: poi.rating,
+    reviewCount: poi.reviews,
+  },
   address: {
     '@type': 'PostalAddress',
     streetAddress: poi.address,
@@ -84,9 +94,9 @@ const breadcrumbLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: messages.header.home, item: `${siteConfig.baseUrl}/${lang}` },
-    { '@type': 'ListItem', position: 2, name: messages.about.title, item: `${siteConfig.baseUrl}/${lang}#about` },
-    { '@type': 'ListItem', position: 3, name: messages.transport.title, item: `${siteConfig.baseUrl}/${lang}#transport` },
+    { '@type': 'ListItem', position: 1, name: messages.header.home, item: `${siteConfig.baseUrl}/${lang}/` },
+    { '@type': 'ListItem', position: 2, name: messages.about.title, item: `${siteConfig.baseUrl}/${lang}/#about` },
+    { '@type': 'ListItem', position: 3, name: messages.transport.title, item: `${siteConfig.baseUrl}/${lang}/#transport` },
     { '@type': 'ListItem', position: 4, name: attractionName, item: canonical },
   ],
 };

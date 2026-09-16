@@ -3,14 +3,14 @@ import { siteConfig } from '../config';
 
 export const GET: APIRoute = () => {
   const { baseUrl, locales } = siteConfig;
-  const xDefault = `${baseUrl}/pt`;
+  const xDefault = `${baseUrl}/pt/`;
   const legalPages = ['privacy-policy', 'terms-of-service', 'cookie-settings'];
-  const paths = locales.flatMap((l) => [l, ...legalPages.map((p) => `${l}/${p}`)]);
+  const paths = locales.flatMap((l) => [`${l}/`, ...legalPages.map((p) => `${l}/${p}/`)]);
   const urls = paths
     .map((p) => {
       const loc = `${baseUrl}/${p}`;
       const alts = locales
-        .map((a) => `      <xhtml:link rel="alternate" hreflang="${a}" href="${baseUrl}/${a}"/>`)
+        .map((a) => `      <xhtml:link rel="alternate" hreflang="${a}" href="${baseUrl}/${a}/"/>`)
         .join('\n');
       return `  <url>\n    <loc>${loc}</loc>\n${alts}\n      <xhtml:link rel="alternate" hreflang="x-default" href="${xDefault}"/>\n  </url>`;
     })

@@ -35,7 +35,7 @@ export function buildAlternates(path = ''): Record<string, string> {
   const siteDomain = process.env.CURRENT_SITE_DOMAIN || 'faromarina.org';
   const base = `https://${siteDomain}`;
   const clean = path.replace(/^\/+/, '').replace(/\/+$/, '');
-  const mk = (l: string) => `${base}/${l}${clean ? '/' + clean : ''}`;
+  const mk = (l: string) => `${base}/${l}/${clean ? clean + '/' : ''}`;
   return {
     pt: mk('pt'),
     en: mk('en'),
